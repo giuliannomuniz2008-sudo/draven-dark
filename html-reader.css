@@ -100,3 +100,11 @@
 @media (min-width:761px){.leaf-body{font-size:calc(clamp(14px,.83vw,16px)*var(--read-scale))}}
 @media (max-width:760px){.leaf-body{font-size:calc(13.5px*var(--read-scale))}}
 
+
+/* Referências permanentes: discretas sobre as ilustrações. */
+.leaf figure{position:relative}
+.leaf figure .image-ref{position:absolute;right:.45rem;top:.45rem;border:1px solid rgba(82,45,31,.45);border-radius:.25rem;background:rgba(247,235,208,.88);color:#4d2621;font:600 .62rem/1.2 Georgia,serif;letter-spacing:.04em;padding:.28rem .38rem;cursor:pointer;opacity:.72;z-index:2}
+.leaf figure .image-ref:hover,.leaf figure .image-ref:focus-visible{opacity:1;background:#f7ebd0}
+#progressKind{font:600 .58rem Georgia,serif;letter-spacing:.05em;text-transform:uppercase;color:#a48367;white-space:nowrap}
+#copyPosition span{font-size:.69rem}
+@media(max-width:1100px){#copyPosition span{display:none}}
