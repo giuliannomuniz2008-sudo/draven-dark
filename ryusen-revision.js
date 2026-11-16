@@ -84,6 +84,13 @@
     image.pixelWidth = 1024;
     image.pixelHeight = 1536;
   }
+  const correctedClothesImage = book.events.find(event => event.eventId === 'c16-chosen-clothes-final');
+  if (!correctedClothesImage || correctedClothesImage.type !== 'image') throw new Error('Missing corrected illustration slot');
+  correctedClothesImage.src = 'assets/draven/recreated-2026/narrative/c16-chosen-clothes-final-anatomy-v2.webp';
+  const distinctPracticeImage = book.events.find(event => event.eventId === 'c10-i3');
+  if (!distinctPracticeImage || distinctPracticeImage.type !== 'image') throw new Error('Missing practice illustration slot');
+  distinctPracticeImage.src = 'assets/draven/recreated-2026/narrative/c10-i3-distinct-v2.webp';
+  distinctPracticeImage.alt = 'Ryusen, aos quinze anos, reacende uma centelha instável junto ao medidor enquanto o instrutor observa.';
   // The picture shows the two competitors reading the gauge, not writing.
   book.events.find(event => event.eventId === 'c8-written-result-final').alt =
     'Aos quatorze anos, Ryusen e o colega observam no medidor os resultados de estabilidade e tempo do exercício de luz.';
