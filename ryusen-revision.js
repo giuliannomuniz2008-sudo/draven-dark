@@ -1,0 +1,97 @@
+// Narrative draft layered on the existing edition. Stable event IDs and assets remain unchanged.
+// This file is deliberately separate so the approved edition can be compared before publication.
+(() => {
+  const book = window.BOOK_DATA;
+  const rename = text => typeof text === 'string' ? text.replaceAll('Draven', 'Ryusen') : text;
+  book.title = 'Ryusen Kurogane Dark';
+  book.cover = 'referencias-oficiais/ryusen-partida-aprovada.png';
+  book.atlas.forEach(person => {
+    person.name = rename(person.name);
+    person.role = rename(person.role);
+    person.description = rename(person.description);
+    person.phases.forEach(phase => { phase.label = rename(phase.label); });
+  });
+  book.events.forEach(event => {
+    event.text = rename(event.text);
+    event.alt = rename(event.alt);
+  });
+  const protagonist = book.atlas.find(person => person.id === 'draven');
+  protagonist.name = 'Ryusen Kurogane Dark';
+  protagonist.description = 'Filho das famílias Dark e Kurogane. Jovem de olhos vermelhos e cabelo branco que escolhe a magia conjurada pelas mãos como especialidade. Competitivo, disciplinado e independente; suas fases visuais e os objetos que passa a usar são revelados conforme a leitura avança.';
+  protagonist.phases[18].unlock = 'c16-i16';
+  protagonist.phases[18].image = 'assets/ryusen/atlas/phase-18-ryusen-oficial.png';
+  for (const phase of protagonist.phases.slice(19)) phase.unlock = 'c17-p9';
+  protagonist.phases[19].image = 'assets/ryusen/atlas/phase-19-ryusen-oficial.png';
+  protagonist.phases[20].image = 'assets/ryusen/atlas/phase-20-ryusen-oficial.png';
+  protagonist.phases[21].image = 'assets/ryusen/atlas/phase-21-ryusen-oficial.png';
+  const mother = book.atlas.find(person => person.id === 'mae');
+  mother.role = 'Família Kurogane · mãe de Ryusen · nome não definido';
+  mother.description = 'Rosto e cabelos prateados preservados da ilustração original. Sua família de origem conserva uma tradição de forja e produção de armas; ela mantém vestimentas e referências culturais próprias. Nome, situação atual e posição política não definidos.';
+
+  const edits = {
+    'c1-p9': 'Ninguém prometeu que a vida seria fácil. Ninguém falou de destino. O nome foi dito uma vez, com a firmeza de algo que passaria a pertencer ao mundo: Ryusen Kurogane Dark. Dark vinha do pai; Kurogane, da mãe. O segundo nome não anunciava uma habilidade secreta, e nenhum dos dois sobrenomes poderia escolher por ele o homem que se tornaria. Uma lente de diagnóstico, embutida num braço de latão ao lado da cama, registrou os sinais do recém-nascido sem interromper a conversa. O pai conferiu a leitura; a mãe corrigiu a posição de uma manta.',
+    'c2-p11': 'Naquela semana, um estojo selado chegou pela caixa de comunicação do alojamento. Dentro havia uma carta da mãe. Não era longa. Ela contava uma lembrança de sua infância entre pessoas que trabalhavam o metal: o calor da oficina, o cuidado de temperar uma lâmina e a irritação que sentia quando alguém confundia tradição com obrigação. Os Kurogane eram sua família de origem, escrevia ela; faziam armas, mas uma peça só valia pelo trabalho e pelas escolhas de quem a segurava. Não havia promessa de poder naquela lembrança.',
+    'c4-p12': 'À tarde, Ryusen voltou à centelha entre as mãos. Conseguiu mantê-la acesa por três passos lentos antes que o movimento a desfizesse. Não era uma vitória que pudesse anunciar. No fim do treino, encontrou o pai à entrada do alojamento. O homem tinha vindo tratar de assuntos comuns da família e soubera da prova; não o felicitou por ter chegado em segundo, nem o consolou. Abriu a mão e mostrou um pequeno medalhão com o brasão Dark, de metal escuro gasto nas bordas. Disse que o objeto lhe pertencia por ser filho daquela família, não por ter vencido alguma disputa. Ryusen o recebeu calado. O pai acrescentou que carregar um nome era lembrar o que se fazia com ele, sobretudo quando ninguém aplaudia. Não houve cerimônia, plateia ou juramento. À noite, Ryusen deixou o medalhão ao lado do caderno para que a corrente não se prendesse durante o exercício; antes de dormir, tornou a colocá-lo. Pediu outra tentativa de magia para o dia seguinte.',
+    'c5-p2': 'Aos onze anos, Ryusen já tinha cartas guardadas dentro do caderno. Não as exibia e tampouco admitia que esperava por elas. Naquela, a mãe descrevia os Kurogane por uma memória concreta: uma oficina onde se discutia a curva de uma lâmina com a mesma seriedade com que se escolhia o tecido para protegê-la. Não lhe oferecia uma história de reis ou uma lista de nomes. Falava de mãos, materiais e da paciência exigida para corrigir um erro antes que o metal esfriasse.',
+    'c5-p4': 'Com a carta vinha um retalho de tecido bordado. O desenho retomava o brasão Kurogane que ela conhecera na família, sem pretender explicar sua origem histórica ou atribuir-lhe qualquer poder. A mãe o enviara para que Ryusen pudesse reconhecer uma parte de onde vinha; não para que vestisse um papel decidido por outros. Acrescentava que não suportava quando transformavam gosto em obrigação, nem tradição em desculpa para mandar na vida alheia.',
+    'c5-p9': 'No dia seguinte, escolheu uma faixa de tecido escuro para prender o próprio cabelo durante o treino. O retalho da carta ficou guardado. Ryusen não tentou copiar o bordado e não vestiu uma identidade pronta. Prendeu o medalhão Dark sob a roupa para que não batesse no peito enquanto corria; ao tocar o metal, pensou no retalho de outra família dentro do caderno. Nenhum dos dois objetos decidia por ele. Pegou apenas a ideia de que uma escolha podia ser sua — e que ninguém precisava aprová-la para que valesse.',
+    'c8-p1': 'Aos quatorze anos, Ryusen já se destacava entre os jovens nos exercícios que exigiam conjurar e ajustar magia diretamente pelas mãos. Percebia pequenas mudanças de ritmo antes de muitos colegas e aprendia depressa quando um método falhava. O talento não o tornava infalível: queria que a magia obedecesse à mesma lógica de uma disputa física, em que podia pressionar o adversário até abrir vantagem. A luz comum entre as mãos não respondia ao orgulho, e esse limite o irritava mais que uma derrota visível.',
+    'c10-p1': 'Aos quinze anos, Ryusen já não confundia a centelha com um truque. Em sequências curtas, seu controle e sua leitura de espaço superavam a maior parte dos rapazes da mesma formação; ainda assim, prolongar o esforço enquanto corria permanecia difícil. Escolhera a magia como especialidade e a conjurava pelas próprias mãos, sem cajado ou varinha. O treino físico e o bastão lhe ensinavam distância e tempo, mas não substituíam o trabalho preciso exigido pela luz.',
+    'c13-p10': 'A travessia não lhe dera um feito grandioso para contar. Deu-lhe a lembrança de que uma máquina confiável dependia de redundância, leitura cuidadosa e gente disposta a esperar. Ryusen continuava preferindo agir primeiro. Tinha vencido exercícios suficientes para reconhecer o próprio talento, mas começava a suspeitar que a próxima distância a superar não se media apenas contra os rapazes de sua idade.',
+    'c14-p8': 'Concluíram a sequência sem apagar a luz. O mostrador registrou um tempo bom, superior ao da maior parte das duplas jovens, e nenhuma interrupção. Ryusen sabia o quanto contribuíra, mas também sabia que o colega sustentara o ritmo quando ele próprio queria acelerá-lo. O resultado pertencia aos dois. Ao recolher as mãos, percebeu uma pressão fria junto ao pulso, como se algo tivesse se fechado sobre a pele. Não havia marca. Ele abriu e fechou os dedos; a sensação desapareceu.',
+    'c14-p9': '— Na próxima, tentamos uma marca a mais — disse Ryusen. Pediu que o colega se afastasse da linha enquanto preparava a repetição. A centelha veio fácil demais. Ele reduziu a força, mas um som de metal arrastado cruzou o salão. Entre sua mão e a argola vazia presa ao piso surgiu um elo escuro, depois outro, suspensos onde não havia corrente alguma. O terceiro se partiu antes de se formar. Ryusen perdeu a concentração; a luz apagou. A argola ficou imóvel, e os elos se desfizeram no ar diante dos dois rapazes e do instrutor.',
+    'c14-p10': '— Pare — disse o instrutor. Ryusen já havia recuado. Olhou para a própria mão, sem ferimento, e para o piso sem marcas. Tentou repetir o gesto; nada surgiu. O colega não riu nem se aproximou. O instrutor verificou a leitura, pediu que ambos descrevessem o que tinham visto e encerrou o exercício. Ryusen queria uma explicação imediata. Recebeu apenas uma constatação: a manifestação era real, rara e insuficiente para demonstrar controle.',
+    'c14-p11': 'Nos dias seguintes, Ryusen voltou ao salão sob observação. Não convocou uma corrente a cada tentativa; às vezes sentia apenas o frio antes de perder o foco. Quando um elo tornou a aparecer, durou menos que uma respiração. Aprendeu a interromper o esforço antes de ferir a própria mão ou alcançar alguém ao lado. A família preservava relatos da capacidade de Sondark de invocar e controlar correntes sobrenaturais; aquilo podia ser um reaparecimento distante, não a repetição de todas as façanhas do ancestral. Entre os jovens, nenhum outro acompanhava sua velocidade de aprendizagem depois do despertar. Diante dos veteranos, Ryusen ainda precisava de instrução, distância e limites. O que surgira não apagava o talento que ele já possuía; tornava mais difícil fingir que talento bastava.',
+    'c15-p10': 'Quando o relé se apagou, Ryusen voltou ao treino. Conjurou a luz comum pelas mãos para firmar o ritmo antes de tentar qualquer outra coisa. A lembrança da corrente pressionou sua atenção, mas ele não a procurou como resposta para o relato sobre a Oamem. Um elo apareceu por um instante junto à sua sombra e se desfez quando ele perdeu a medida da respiração. Registrou a tentativa no caderno: condição, duração, interrupção. O que lera sobre a organização continuava sem resposta; a habilidade herdada também. Nenhuma das duas incertezas lhe dava licença para inventar uma missão.',
+    'c16-p1': 'Aos dezoito anos, Ryusen já reconhecia a própria mão em alguns detalhes: o fecho carmesim escolhido por ele, o corte das mangas e o modo como combinava peças Dark com linhas que lembravam as imagens das cartas da mãe. Fora do treino, a manifestação das correntes seguia irregular; não precisava ocultá-la dos instrutores, mas tampouco podia tratá-la como arma dominada. As vitórias sobre os jovens da sua geração eram reais. Nenhuma o colocava acima dos veteranos. O cabelo branco era preso para não atrapalhar os olhos, com o penteado que mais tarde integraria sua aparência adulta.',
+    'c16-p2': 'Naquela tarde, voltou a uma carta antiga. A mãe descrevia o trabalho dos Kurogane com o metal e a atenção dada à bainha, ao equilíbrio e à manutenção de uma arma. Na margem, esboçara o brasão que aparecia no retalho enviado anos antes. Não explicava uma origem mística nem uma importância política. Escrevera apenas que reconhecia naquele sinal a oficina e as pessoas entre as quais aprendera a distinguir acabamento de cuidado. Ryusen releu o trecho e guardou-o junto às referências visuais reunidas ao longo dos anos.',
+    'c16-p4': 'Entre as figuras, separou as formas que fariam parte da composição oficial sobre braços, peito, pescoço e costas. Queria que acompanhassem o movimento do corpo e sua escolha de roupa, não que anunciassem um poder. O demônio e o dragão eram imagens pessoais; não espíritos, profecias ou uma segunda herança. A corrente de Sondark existia independentemente da tinta. Ryusen recusou qualquer traço que sugerisse que o desenho a invocava.',
+    'c16-p17': 'Quando viu o conjunto inteiro, Ryusen reconheceu a composição que escolhera, ainda sujeita aos cuidados de cicatrização. O rosto no espelho era o mesmo; as marcas não tornavam sua magia mais forte e não explicavam as correntes. A roupa preta e carmesim que começou a montar depois delas respeitava o movimento de seus braços e deixava espaço para os símbolos das duas famílias. Ainda faltava decidir como protegeria a parte inferior do rosto sem esconder os olhos nem atrapalhar a respiração. Lembrou-se de formas vistas nas cartas maternas e desenhou uma meia máscara Oni que não copiava um objeto de família: seria uma peça sua, feita para o corpo e a vida que construíra. Nada daquilo o tornava veterano.',
+    'c16-p18': 'Na volta, guardou a carta da mãe no mesmo compartimento da pasta. Não contou aos colegas do território o que cada linha das tatuagens significava. Mais tarde, trouxe da cidade uma meia máscara simples, ainda sem acabamento, e a ajustou com as próprias mãos. Testou a fixação em movimento, retirou uma tira que pressionava a orelha e refez o encaixe até poder respirar e enxergar sem esforço. Pintou a superfície de preto e carmesim, seguindo o desenho Oni que escolhera; não acrescentou um brasão nem a tratou como peça obrigatória dos Dark ou herança mágica dos Kurogane. Usou-a em duas práticas de deslocamento e descobriu que precisava soltar a tira durante pausas longas. Quando o instrutor perguntou se pretendia usá-la em cada treino, Ryusen respondeu que decidiria conforme a tarefa. Guardou-a ao lado do equipamento. O medalhão paterno continuou no peito; a máscara era outra coisa, moldada por suas próprias escolhas.',
+    'c17-p1': 'Aos dezenove anos, Ryusen voltou ao salão de avaliação para uma última sequência antes de deixar a rotina de formação. O instrutor dividiu a prova em deslocamento, leitura de sinais, conjuração pelas mãos e controle da manifestação rara. Os rapazes da mesma geração já o tratavam como o competidor a superar. Isso não alterava as marcas estabelecidas pelos homens mais experientes, nem convertia cada tentativa de corrente em acerto.',
+    'c17-p2': 'Ryusen começou rápido demais e perdeu o primeiro sinal. O instrutor mandou reiniciar. Na segunda tentativa, leu o painel, ajustou a respiração e concluiu o trecho comum com precisão superior à dos outros jovens. A luz surgiu firme entre as mãos. Quando tentou formar a corrente, dois elos se fecharam no ar e o terceiro se desfez; o impulso restante desviou sua postura. Ele parou antes de atingir a marca seguinte. Não escondera o erro, tampouco precisava fingir que os primeiros trechos não tinham sido bons.',
+    'c17-p4': 'O registro apontou um resultado excepcional no percurso e na conjuração básica, além de uma interrupção na parte das correntes. Ryusen leu as linhas duas vezes. Teria preferido que a primeira apagasse a segunda, mas o papel não se prestava a elogios. Anotou o tempo, a distância dos elos e o ponto em que perdera a medida. O instrutor não chamou aquilo de derrota nem de domínio.',
+    'c17-p8': 'Ryusen guardou o caderno. Continuava competitivo e frio o bastante para não confundir reconhecimento com intimidade. A caminho da saída, recebeu um estojo e uma carta que a mãe deixara preparados para aquela passagem. A entrega não informava onde ela estava naquele momento. A carta retomava a oficina Kurogane sem narrar uma história política: ela havia pedido a ferreiros de sua família que fizessem uma katana para ele, equilibrada para alguém que conjurava com as mãos e também precisava lutar de perto. Queria que Ryusen conhecesse o trabalho por trás da lâmina e carregasse as duas famílias sem pedir a nenhuma delas que escolhesse seu caminho. O brasão na guarda repetia o sinal do retalho que ele guardara aos onze anos. Não havia promessa de magia na espada.',
+    'c17-p9': 'Dentro do estojo, a katana tinha a mesma sobriedade cuidadosa da carta: empunhadura firme, bainha bem ajustada, detalhes Kurogane que Ryusen reconheceu dos desenhos maternos. Testou o equilíbrio sem desembainhá-la diante dos outros e a guardou para a viagem. As tatuagens permaneceram parcialmente cobertas pelo traje preto e carmesim. Sob o tecido, o medalhão que o pai lhe dera aos dez anos repousava contra o peito. A meia máscara Oni, ajustada e pintada por ele, estava presa ao lado da bolsa; podia usá-la quando lhe fosse útil, sem que alguém a tivesse imposto. Ryusen não recebeu uma missão nem uma arma capaz de decidir sua campanha. Saiu com talento, uma habilidade rara em desenvolvimento e muito que ainda precisava aprender.',
+    'c17-p10': 'Do lado de fora, a passagem aguardava aberta. Ryusen parou um instante, sentiu o peso real da espada ao lado da bolsa e olhou para trás. Os rapazes que deixava haviam sido seus rivais; os veteranos permaneciam uma medida distante. Passou o medalhão para dentro da roupa, ajustou a meia máscara sobre a parte inferior do rosto e seguiu até o limiar. A campanha começaria depois daquele passo. O que ele faria nela ainda não estava escrito.'
+  };
+  for (const [id, text] of Object.entries(edits)) {
+    const event = book.events.find(item => item.eventId === id);
+    if (!event || event.type !== 'text') throw new Error(`Missing draft paragraph ${id}`);
+    event.text = text;
+  }
+  function moveAfter(eventId, anchorId) {
+    const image = book.events.find(event => event.eventId === eventId);
+    if (!image || image.type !== 'image') throw new Error(`Missing image ${eventId}`);
+    book.events = book.events.filter(event => event.eventId !== eventId);
+    const at = book.events.findIndex(event => event.eventId === anchorId);
+    if (at < 0) throw new Error(`Missing anchor ${anchorId}`);
+    book.events.splice(at + 1, 0, image);
+  }
+  const samples = {
+    'c4-practice-detail': ['c4-medalhao-dark.png', 'O pai entrega o medalhão Dark a Ryusen aos dez anos, após a derrota numa prova comum.'],
+    'c14-detail': ['c14-despertar-correntes.png', 'A primeira corrente sobrenatural surge de forma instável entre a mão de Ryusen e uma argola no salão masculino.'],
+    'c16-focus-final': ['c16-tatuagens-revisao.png', 'O artista confere as linhas finais das tatuagens de Ryusen, de acordo com a imagem oficial protegida.'],
+    'c16-session-finished-final': ['c16-criacao-mascara-oni.png', 'Ryusen ajusta e pinta pessoalmente a meia máscara Oni preta e carmesim.'],
+    'c17-departure-final': ['c17-carta-katana.png', 'Ryusen lê a carta da mãe diante da katana Kurogane recém-entregue.'],
+    'c17-limiar-final': ['c17-partida-oficial.png', 'Ryusen deixa o território com traje oficial, meia máscara Oni, medalhão Dark e katana Kurogane.']
+  };
+  for (const [id, [file, alt]] of Object.entries(samples)) {
+    const image = book.events.find(event => event.eventId === id);
+    if (!image || image.type !== 'image') throw new Error(`Missing sample slot ${id}`);
+    image.src = `assets/ryusen/amostras-prioritarias/${file}`;
+    image.alt = alt;
+    image.pixelWidth = 1024;
+    image.pixelHeight = 1536;
+  }
+  // The picture shows the two competitors reading the gauge, not writing.
+  book.events.find(event => event.eventId === 'c8-written-result-final').alt =
+    'Aos quatorze anos, Ryusen e o colega observam no medidor os resultados de estabilidade e tempo do exercício de luz.';
+  moveAfter('c14-detail', 'c14-p9');
+  moveAfter('c16-session-finished-final', 'c16-p18');
+  moveAfter('c17-departure-final', 'c17-p8');
+  moveAfter('c17-limiar-final', 'c17-p10');
+  const protectedImage = book.events.find(event => event.eventId === 'c16-i16');
+  if (protectedImage?.src !== 'assets/draven/recreated-2026/narrative/c16-i16.webp') throw new Error('Protected illustration moved or replaced');
+  book.revisionDraft = { name: 'Ryusen Kurogane Dark', changedParagraphs: Object.keys(edits), prioritySamples: Object.keys(samples), protectedImageId: 'c16-i16', imageReviewPending: true };
+})();

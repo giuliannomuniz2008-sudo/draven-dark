@@ -1,10 +1,14 @@
 {
-  "edition": "Edição em Desenvolvimento",
-  "date": "2026-11-12",
-  "revision": "identity-and-continuity-v3",
+  "edition": "Ryusen Kurogane Dark — edição ilustrada",
+  "date": "2026-11-16",
+  "revision": "ryusen-approved-katana-case",
   "chapters": 17,
-  "narrativeRecreated": 98,
-  "narrativeTotal": 98,
-  "dravenAtlasRecreated": 22,
-  "dravenAtlasTotal": 22
+  "narrativeIllustrations": 98,
+  "atlasPhases": 22,
+  "protected": [
+    "c16-i16",
+    "c17-limiar-final",
+    "c17-departure-final",
+    "atlas-phase-21"
+  ]
 }
