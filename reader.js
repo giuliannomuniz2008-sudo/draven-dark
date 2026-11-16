@@ -98,7 +98,7 @@ function paintAtlas(){const all=$('atlasReveal').checked,filter=$('atlasFilters'
 $('atlasToggle').onclick=()=>{$('atlasPanel').classList.add('open');paintAtlas()};
 $('atlasClose').onclick=()=> $('atlasPanel').classList.remove('open');
 $('atlasReveal').onchange=paintAtlas;
-$('atlasContent').onclick=e=>{const photo=e.target.closest('.atlas-portrait');if(photo){openLightbox(photo.src,photo.alt);return}const b=e.target.closest('[data-profile][data-phase]');if(!b)return;const i=Number(b.dataset.profile),j=Number(b.dataset.phase),entry=DATA.atlas[i];$('atlasContent').querySelector(`[data-profile-view="${i}"]`).innerHTML=atlasCard(entry,i,j,$('atlasReveal').checked)};
+$('atlasContent').onclick=e=>{const photo=e.target.closest('.atlas-portrait');if(photo){openLightbox(photo.src,photo.alt);return}const b=e.target.closest('[data-profile][data-phase]');if(!b)return;const i=Number(b.dataset.profile),j=Number(b.dataset.phase),entry=DATA.atlas[i];b.closest('.atlas-card').outerHTML=atlasCard(entry,i,j,$('atlasReveal').checked)};
 document.addEventListener('keydown',e=>{if(e.key==='Escape')$('atlasPanel').classList.remove('open')});
 $('copyPosition').onclick=copyReadingLink;
 stage.addEventListener('click',e=>{const button=e.target.closest('[data-copy-image]');if(button){e.preventDefault();e.stopPropagation();copyImageRef(button.dataset.copyImage,button)}});
