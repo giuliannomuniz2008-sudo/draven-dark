@@ -1,0 +1,79 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
+const { execFileSync } = require('node:child_process');
+const root = path.resolve(__dirname, '..');
+const context = {};
+context.window = context;
+vm.createContext(context);
+for (const file of ['book-data.js', 'ryusen-revision.js']) {
+  vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
+}
+const book = context.BOOK_DATA;
+assert.equal(book.toc.length, 17, '17 capítulos');
+assert.equal(book.events.filter(e => e.type === 'image').length, 98, '98 espaços narrativos');
+assert.equal(book.atlas[0].phases.length, 22, '22 fases de Ryusen');
+assert.equal(book.atlas.length, 8, '8 fichas de personagens');
+assert.ok(fs.existsSync(path.join(root, book.cover)), 'capa local presente');
+const ids = book.events.map(e => e.eventId);
+assert.equal(new Set(ids).size, ids.length, 'IDs de eventos sem duplicatas');
+const missing = [];
+for (const event of book.events) if (event.type === 'image') {
+  if (!event.src || /^([a-z]+:|[\\/]|[A-Za-z]:)/i.test(event.src)) missing.push(event.eventId + ': caminho não local/relativo');
+  else if (!fs.existsSync(path.join(root, event.src))) missing.push(event.eventId + ': ' + event.src);
+  if (!event.alt || !Number.isFinite(event.pixelWidth) || !Number.isFinite(event.pixelHeight) || event.pixelWidth <= 0 || event.pixelHeight <= 0) missing.push(event.eventId + ': metadados de imagem incompletos');
+}
+for (const person of book.atlas) for (const phase of person.phases) if (!fs.existsSync(path.join(root, phase.image))) missing.push(person.name + ': ' + phase.image);
+assert.deepEqual(missing, [], 'todas as imagens narrativas e do Atlas existem');
+assert.equal(book.toc.length, book.events.filter(e => e.type === 'heading').length, 'sumário e capítulos têm a mesma contagem');
+for (let i = 0; i < book.toc.length; i++) assert.equal(book.toc[i].eventId, book.events.filter(e => e.type === 'heading')[i].eventId, `capítulo ${i + 1} mantém o vínculo do sumário`);
+assert.equal(book.events.find(e => e.eventId === 'c13-waiting-clearance-final').src, 'assets/draven/recreated-2026/narrative/c13-waiting-clearance-final-anatomy-v2.webp', 'correção anatômica integrada');
+assert.equal(book.events.find(e => e.eventId === 'c16-i16').src, 'assets/draven/recreated-2026/narrative/c16-i16.webp', 'imagem protegida preservada');
+const protectedBytes = fs.readFileSync(path.join(root, 'assets/draven/recreated-2026/narrative/c16-i16.webp'));
+const protectedBlob = execFileSync('git', ['hash-object', 'assets/draven/recreated-2026/narrative/c16-i16.webp'], { cwd: root, encoding: 'utf8' }).trim();
+assert.equal(protectedBlob, 'bbd5bebbceec3428253f79302ec221af577ce653', 'arquivo c16-i16 protegido permanece byte a byte intacto');
+assert.ok(crypto.createHash('sha256').update(protectedBytes).digest('hex').length === 64, 'hash do recurso protegido calculável');
+for (const [file, expected] of [
+  ['assets/ryusen/amostras-prioritarias/c17-carta-katana.png', '0e702d6c365c462cd022c7a390a4516c61ea586c'],
+  ['assets/ryusen/amostras-prioritarias/c17-partida-oficial.png', 'fe9227a4861b71454ac2994370c95eedcdf95b38'],
+  ['assets/ryusen/atlas/phase-21-ryusen-oficial.png', '9e02141563bf6f8676629af03726392e422f3d7b']
+]) assert.equal(execFileSync('git', ['hash-object', file], { cwd: root, encoding: 'utf8' }).trim(), expected, `${file} continua intacta`);
+assert.ok(book.events.findIndex(e => e.eventId === 'c2-i4') > book.events.findIndex(e => e.eventId === 'c2-p9'), 'imagem de Ryusen aos sete anos aparece após a primeira cena aos seis');
+const text = id => book.events.find(e => e.eventId === id)?.text || '';
+assert.match(text('c2-p10'), /aos sete anos/i, 'cronologia do capítulo 2 marca a idade de sete anos');
+assert.match(text('c4-p12'), /prestígio.*respeitava.*magia.*armas.*estudo.*trabalho técnico/i, 'valores Dark admitem caminhos diversos');
+assert.match(text('c3-p2'), /armas de fogo.*lâminas.*nenhum daqueles exercícios dependia de magia/i, 'formação inclui vias de combate não mágicas');
+assert.match(text('c6-p12'), /pedir ajuda era fraqueza/i, 'tradição Dark é apresentada sem torná-la regra universal');
+assert.match(text('c7-p1'), /silhueta medieval.*integração de rede e controle/i, 'tecnologia avançada integrada à estética medieval');
+assert.match(text('c14-p11'), /entre os jovens.*veteranos/i, 'progressão após o despertar permanece equilibrada');
+assert.match(text('c14-p11'), /não bastava para estabelecer origem ou equivalência/i, 'a relação das correntes com Sondark permanece sem confirmação');
+assert.doesNotMatch(text('c15-p10'), /habilidade herdada/i, 'o leitor não afirma que Ryusen herdou os poderes de Sondark');
+assert.match(text('c17-p9'), /aos dez anos|dera aos dez anos/i, 'medalhão recebido na infância permanece coerente');
+assert.match(text('c17-p9'), /A meia máscara Oni/i, 'máscara é individual e posterior ao treinamento');
+assert.ok(book.atlas[0].phases.length === 22, 'todas as fases do Atlas de Ryusen preservadas');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+assert.equal((html.match(/src="ryusen-revision\.js/g) || []).length, 1, 'script de revisão incluído uma vez');
+assert.match(fs.readFileSync(path.join(root, 'html-reader.css'), 'utf8'), /\.leaf-body\{overflow:hidden/, 'sem rolagem interna em páginas');
+const readerCss = fs.readFileSync(path.join(root, 'html-reader.css'), 'utf8');
+assert.match(readerCss, /@media\(max-width:1000px\)/, 'controles compactos antes de tablet/desktop estreito');
+assert.match(readerCss, /@media\(max-width:480px\)/, 'barra e progresso ajustados para celular pequeno');
+assert.doesNotMatch(html, /(?:src|href)=["']https?:\/\//i, 'HTML sem scripts, estilos ou recursos remotos');
+for (const file of ['style.css', 'html-reader.css', 'reader.js', 'ryusen-revision.js']) assert.ok(fs.existsSync(path.join(root, file)), `recurso local presente: ${file}`);
+const reader = fs.readFileSync(path.join(root, 'reader.js'), 'utf8');
+for (const file of ['style.css', 'html-reader.css', 'reader.js', 'ryusen-revision.js']) assert.doesNotMatch(fs.readFileSync(path.join(root, file), 'utf8'), /@import\s+url\s*\(|url\(\s*["']?https?:|(?:src|href)\s*=\s*["']https?:/i, `${file} não depende de rede`);
+assert.match(reader, /scrollHeight<=body\.clientHeight\+1/, 'paginação mede o conteúdo contra a altura disponível');
+assert.match(reader, /largestFittingPart/, 'parágrafos são divididos para continuar em folhas seguintes');
+assert.match(reader, /scheduleRepagination/, 'mudanças de orientação e tela recalculam a paginação');
+assert.match(reader, /draven-reader-anchor/, 'posição de leitura persiste localmente');
+assert.match(reader, /atlasPhaseUnlocked/, 'fases do Atlas são desbloqueadas pelo progresso');
+assert.match(reader, /busy=false\},900\)/, 'estado de virada aguarda a animação concluir');
+assert.match(fs.readFileSync(path.join(root, 'style.css'), 'utf8'), /turnNext 900ms/, 'duração visual da virada coincide com o leitor');
+assert.match(html, /id="atlasToggle"[^>]*aria-label=/, 'atalho do Atlas tem rótulo acessível');
+const revisionSource = fs.readFileSync(path.join(root, 'ryusen-revision.js'), 'utf8');
+const editBlock = revisionSource.match(/const edits = \{([\s\S]*?)\n  \};/);
+assert.ok(editBlock, 'bloco de revisões encontrado');
+const editIds = [...editBlock[1].matchAll(/^\s*'([^']+)'\s*:/gm)].map(match => match[1]);
+assert.equal(new Set(editIds).size, editIds.length, 'revisões de parágrafo sem chaves duplicadas');
+console.log('OK: 17 capítulos, 98 posições narrativas, 22 fases de Ryusen, 8 personagens e todas as imagens do Atlas; IDs, metadados e arquivos locais íntegros; c16-i16 com hash protegido; cronologia, cânone, sumário, paginação e recursos offline verificados.');
