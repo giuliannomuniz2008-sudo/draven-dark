@@ -1,7 +1,7 @@
 {
   "edition": "Ryusen Kurogane Dark — edição ilustrada",
-  "date": "2026-11-17",
-  "revision": "narrative-continuity-pagination-integrity-2026-11-17",
+  "date": "2026-11-21",
+  "revision": "canon-codex-c14-magic-2026-11-21",
   "chapters": 17,
   "narrativeIllustrations": 98,
   "atlasPhases": 22,
@@ -10,5 +10,10 @@
     "c17-limiar-final",
     "c17-departure-final",
     "atlas-phase-21"
+  ],
+  "pendingLocalizedTattooEdits": [
+    "DD-C17-01",
+    "DD-C17-02",
+    "DD-C17-03"
   ]
 }
