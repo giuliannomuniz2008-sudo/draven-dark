@@ -1,6 +1,6 @@
 # Inventário visual do livro
 
-Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 personagens. O leitor aplica os caminhos depois de carregar ryusen-revision.js.
+Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilustração complementar no capítulo 5; 22 fases de Ryusen; 8 personagens. O leitor aplica os caminhos depois de carregar ryusen-revision.js.
 
 ## Imagens narrativas
 
@@ -26,6 +26,7 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 | IV · A Derrota Pública | c4-practice-detail | assets/ryusen/amostras-prioritarias/c4-medalhao-dark.webp | O pai entrega o medalhão Dark a Ryusen aos dez anos, após a derrota numa prova comum. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-relay-letter-final | assets/draven/recreated-2026/narrative/c5-relay-letter-final.webp | Aos onze anos, Ryusen alcança o pacote lacrado recém-chegado pelo relé de comunicação do alojamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-letter-reading-final | assets/draven/recreated-2026/narrative/c5-letter-reading-final.webp | Aos onze anos, Ryusen lê sozinho a carta recém-chegada da mãe no alojamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
+| V · Cartas do Lado de Fora | c5-mother-two-swords-reference | assets/ryusen/atlas/ryusen-mother-two-swords-proposal.webp | Arte proposta da mãe de Ryusen treinando com duas espadas, evocada pela carta | 1024×1536 · presente | Nova proposta visual; aguarda validação do mestre |
 | V · Cartas do Lado de Fora | c5-i3 | assets/draven/recreated-2026/narrative/c5-i3.webp | Ryusen lê uma carta da mãe no território masculino, junto a um pequeno retalho e referências desenhadas | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-detail | assets/draven/recreated-2026/narrative/c5-detail.webp | A carta da mãe, o retalho bordado e o relé de comunicação no alojamento masculino | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-focus-new | assets/draven/recreated-2026/narrative/c5-focus-new.webp | Ryusen aos onze anos relê a carta da mãe no alojamento, sem tatuagens; correspondência e detalhes do tecido ao alcance das mãos | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |

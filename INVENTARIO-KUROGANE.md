@@ -1,8 +1,8 @@
 # Inventário visual Kurogane — 22/11/2026
 
-Capa atual: `assets/kurogane/cover/legado-do-aco-regional.webp` — Guarda e artesão diante de um portão oriental fortificado que abre para um território regional organizado. A capa anterior foi preservada fora do repositório e no histórico Git. Volume: 22 capítulos, 40 posições narrativas em WebP. Os PNGs originais das 22 ilustrações substituídas e das imagens geradas estão na pasta irmã `Kurogane-Source-Originals`; versões anteriores também permanecem no histórico Git.
+Capa atual: `assets/kurogane/cover/legado-do-aco-wealth.webp` — complexo Kurogane próspero, com arquitetura oriental, tecnologia industrial integrada e forja avançada. Arte proposta, aguardando aprovação. Volume: 22 capítulos, 42 eventos de imagem (40 anteriores preservados + 2 negociações adicionadas), em WebP. Os PNGs originais das 22 ilustrações substituídas e das imagens geradas estão na pasta irmã `Kurogane-Source-Originals`; versões anteriores também permanecem no histórico Git.
 
-## 40 ilustrações integradas
+## 42 ilustrações integradas
 
 - **KUR-01-01** — `assets/kurogane/narrative/k01-origem-oriental.webp` — Kaede e Daisuke reconstroem uma forja oriental após a destruição.
 - **KUR-02-01** — `assets/kurogane/narrative/k02-primeira-forja-oriental.webp` — Kaede e uma aprendiz acendem a primeira forja renovada.
@@ -45,6 +45,11 @@ Capa atual: `assets/kurogane/cover/legado-do-aco-regional.webp` — Guarda e art
 - **KUR-21-02** — `assets/kurogane/narrative/k21-esquadra-regional.webp` — Uma pequena unidade veterana Kurogane se prepara para uma escolta regional.
 - **KUR-22-01** — `assets/kurogane/narrative/k22-pedidos-da-manha-oriental.webp` — Artesãos, comerciante e guarda organizam pedidos numa manhã regional.
 
+## Cenas comerciais adicionadas nesta revisão
+
+- **KUR-41** — `assets/kurogane/narrative/k18-oamem-contract.webp` — negociação separada com comprador da Oamem, tensa e estritamente comercial; não sugere amizade ou aliança.
+- **KUR-42** — `assets/kurogane/narrative/k21-dark-contract.webp` — negociação entre representantes Dark e Kurogane com autonomia comercial, sem submissão nem tratado de defesa.
+
 ## Direção e estado
 
-As 22 imagens antigas foram classificadas como incompatíveis com a identidade oriental e substituídas. Foram adicionadas 18 cenas novas, distribuídas em 17 capítulos. A direção visual é proposta e aguarda aprovação do mestre André; as cenas novas não criam símbolos oficiais nem retratos oficiais de personagens. Guia: [GUIA-VISUAL-KUROGANE-PROPOSTA.md](GUIA-VISUAL-KUROGANE-PROPOSTA.md). Auditoria: [AUDITORIA-ILUSTRACOES-KUROGANE-2026-11-22.md](AUDITORIA-ILUSTRACOES-KUROGANE-2026-11-22.md).
+As 40 imagens narrativas anteriores foram preservadas. Foram acrescentadas duas cenas de negociação e uma nova capa; as artes são propostas e aguardam aprovação do mestre André. Guia: [GUIA-VISUAL-KUROGANE-PROPOSTA.md](GUIA-VISUAL-KUROGANE-PROPOSTA.md). Auditoria: [AUDITORIA-ILUSTRACOES-KUROGANE-2026-11-22.md](AUDITORIA-ILUSTRACOES-KUROGANE-2026-11-22.md).

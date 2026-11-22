@@ -1,17 +1,17 @@
 {
   "edition": "Ryusen Kurogane Dark — edição ilustrada",
   "date": "2026-11-22",
-  "revision": "kurogane-regional-clan-reform-2026-11-22-v3",
-  "collectionRevision": "two-volume-library-kurogane-regional-reform-2026-11-22-v3",
+  "revision": "ryusen-kurogane-reconstruction-2026-11-22-v1",
+  "collectionRevision": "two-volume-ryusen-kurogane-reconstruction-2026-11-22-v1",
   "books": 2,
   "kuroganeEdition": {
     "title": "Kurogane — O Legado do Aço",
     "status": "proposta narrativa para aprovação do mestre André",
     "chapters": 22,
-    "narrativeIllustrations": 40,
-    "imageFormat": "WebP quality 93",
+    "narrativeIllustrations": 42,
+    "imageFormat": "WebP, qualidade 94 nas imagens novas; artes existentes preservadas",
     "coverIllustrations": 1,
-    "pendingIllustrationsTarget": "meta mínima de 40 cenas atingida; faixa editorial de 40–80"
+    "pendingIllustrationsTarget": "Capa revisada, duas cenas comerciais e retrato materno integrados; inspeção individual ampliada das imagens anteriores ainda não concluída"
   },
   "chapters": 17,
   "narrativeIllustrations": 98,
@@ -26,5 +26,7 @@
     "DD-C17-01",
     "DD-C17-02",
     "DD-C17-03"
-  ]
+  ],
+  "supplementalNarrativeIllustrations": 1,
+  "motherAtlasImage": "assets/ryusen/atlas/ryusen-mother-two-swords-proposal.webp"
 }

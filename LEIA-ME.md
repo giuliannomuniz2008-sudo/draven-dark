@@ -1,28 +1,18 @@
 # Ryusen Kurogane Dark — edição ilustrada
 
-Abra `index.html` em um navegador atual ou use o endereço público do GitHub Pages. O leitor mantém a navegação e o progresso localmente neste navegador.
+Abra `index.html` em um navegador atual ou use o site público. A biblioteca oferece dois volumes, cada um com sumário e progresso separados salvos neste navegador.
 
-## Atualização de 21/11/2026
+## Reconstrução narrativa e visual — 22/11/2026
 
-- Os 17 capítulos e as 98 posições narrativas foram mantidos, assim como as 22 fases do Atlas.
-- A narrativa não atribui a Ryusen correntes sobrenaturais, Inata ou despertar não confirmado.
-- O antigo espaço visual do despertar foi atualizado com uma cena de treino de magia comum aos 17 anos.
-- O Códice do Universo separa fatos confirmados, interpretação narrativa e questões reservadas ao mestre.
-- `c16-i16`, `c17-limiar-final`, `c17-departure-final` e a fase protegida do Atlas não foram modificados.
+- O Livro I mantém os 17 capítulos, todos os IDs e as 98 posições narrativas existentes; foi acrescentada uma ilustração complementar ligada às cartas maternas. As 22 fases e oito fichas do Atlas permanecem.
+- A revisão reforça Ryusen como filho único, seu orgulho Dark, a tradição de superar o pai ainda como objetivo futuro, e a origem materna da katana e das referências estéticas. Nenhum confronto futuro ou poder novo foi definido.
+- O Atlas apresenta uma nova arte proposta da mãe com duas espadas e identidade visual própria. Ela não é uma referência oficial aprovada pelo mestre. O retrato do pai foi preservado.
+- O Livro II mantém 22 capítulos, IDs existentes e 40 imagens originais, e recebe duas cenas comerciais adicionais (42 no total), uma capa revisada e revisões de texto em todos os capítulos. Continua marcado como proposta narrativa.
+- Os fatos novos do cenário foram informados pelo jogador como confirmados pelo mestre André; personagens, eventos e detalhes visuais inventados para o Livro II seguem pendentes de aprovação.
+- `c16-i16`, `c17-limiar-final`, `c17-departure-final` e o retrato protegido do Atlas não foram alterados.
 
-## Pendente
+## Teste local
 
-As tatuagens de `DD-C17-01`, `DD-C17-02` e `DD-C17-03` ainda precisam de edição restrita às áreas tatuadas. Nenhum arquivo foi substituído nessa tarefa enquanto não houver ferramenta de máscara segura.
+Execute `node scripts/test-integrity.cjs` para verificar contagens, IDs, referências locais, imagens, objetos protegidos e estrutura do leitor. Essa verificação não substitui inspeção visual individual de todas as imagens ou teste em cada tamanho de tela.
 
-Para validar localmente, execute `node scripts/test-integrity.cjs`.
-# Biblioteca em dois volumes
-
-A tela inicial agora permite alternar por setas entre **Ryusen Kurogane Dark** e **Kurogane — O Legado do Aço**. A seleção também funciona com as setas esquerda/direita do teclado enquanto a capa estiver visível. Dentro da leitura, o botão **Biblioteca** retorna à escolha de volume sem recarregar a página.
-
-O volume Kurogane contém 22 capítulos e é uma **proposta narrativa para avaliação do mestre André**, não cânone aprovado. Seu sumário, paginação e progresso são independentes do livro principal. A edição atual tem capa e 40 ilustrações narrativas em WebP; os PNG originais foram guardados na pasta irmã `Kurogane-Source-Originals`.
-
-## Reformulação proposta do clã Kurogane — 22/11/2026
-
-As 22 ilustrações narrativas antigas foram substituídas por versões com identidade oriental; 18 cenas novas foram distribuídas ao longo dos capítulos. A capa também foi atualizada para apresentar o território e a guarda regional. O volume agora tem 40 imagens narrativas. Os PNG originais foram guardados na pasta irmã `Kurogane-Source-Originals`. O texto desenvolve um território e uma defesa regionais, mantendo os Kurogane abaixo da influência mundial dos Dark. Todo esse material continua proposto, aguardando aprovação do mestre André. Consulte o [guia visual proposto](GUIA-VISUAL-KUROGANE-PROPOSTA.md), a [auditoria das imagens](AUDITORIA-ILUSTRACOES-KUROGANE-2026-11-22.md) e o [documento de aprovação](APROVACAO-MESTRE-ANDRE-KUROGANE.md).
-
-Arquivos úteis: [resumo de aprovação para André](APROVACAO-MESTRE-ANDRE-KUROGANE.md) e [mensagem curta para compartilhar](MENSAGEM-CURTA-MESTRE-ANDRE-KUROGANE.txt).
+Para publicar futuramente, use o repositório GitHub Pages já existente; o HTML portátil offline continua separado da experiência modular.
