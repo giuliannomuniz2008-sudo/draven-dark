@@ -1,7 +1,18 @@
 {
   "edition": "Ryusen Kurogane Dark — edição ilustrada",
   "date": "2026-11-22",
-  "revision": "stage2-individual-training-canon-review-2026-11-22",
+  "revision": "two-volume-kurogane-illustrated-proposal-2026-11-22",
+  "collectionRevision": "two-volume-library-kurogane-proposal-2026-11-22",
+  "books": 2,
+  "kuroganeEdition": {
+    "title": "Kurogane — O Legado do Aço",
+    "status": "proposta narrativa para aprovação do mestre André",
+    "chapters": 22,
+    "narrativeIllustrations": 22,
+    "imageFormat": "WebP quality 93",
+    "coverIllustrations": 1,
+    "pendingIllustrationsTarget": "40–80 cenas narrativas totais"
+  },
   "chapters": 17,
   "narrativeIllustrations": 98,
   "atlasPhases": 22,

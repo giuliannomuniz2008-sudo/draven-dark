@@ -8,10 +8,24 @@ const root = path.resolve(__dirname, '..');
 const context = {};
 context.window = context;
 vm.createContext(context);
-for (const file of ['book-data.js', 'ryusen-revision.js']) {
+for (const file of ['book-data.js', 'ryusen-revision.js', 'kurogane-book-data.js']) {
   vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
 }
 const book = context.BOOK_DATA;
+const kurogane = context.KUROGANE_BOOK_DATA;
+assert.equal(kurogane.toc.length, 22, '22 capítulos de Kurogane (obra proposta)');
+assert.equal(kurogane.events.filter(e => e.type === 'heading').length, 22, 'sumário do segundo volume corresponde aos capítulos');
+assert.equal(new Set(kurogane.events.map(e => e.eventId)).size, kurogane.events.length, 'IDs independentes do segundo volume sem duplicatas');
+assert.ok(kurogane.proposal, 'segundo volume marcado como narrativa proposta');
+assert.equal(kurogane.events.filter(e => e.type === 'image').length, 22, 'vinte e duas ilustrações narrativas Kurogane integradas');
+assert.ok(fs.existsSync(path.join(root, kurogane.cover)), 'capa Kurogane local presente');
+for (const event of kurogane.events) if (event.type === 'image') {
+  assert.ok(fs.existsSync(path.join(root, event.src)), `imagem Kurogane integrada: ${event.eventId}`);
+  assert.ok(event.pixelWidth > 0 && event.pixelHeight > 0, `metadados de dimensão Kurogane: ${event.eventId}`);
+}
+assert.ok(kurogane.events.some(e => e.eventId === 'k14-p1' && /mulher da linhagem materna de Ryusen encomendava uma katana/i.test(e.text)), 'a encomenda materna aparece na passagem narrativa proposta');
+assert.ok(kurogane.events.every(e => !e.text || !/destino da mãe|mãe morreu|mãe desapareceu/i.test(e.text)), 'destino da mãe permanece indefinido');
+assert.ok(kurogane.events.every(e => !e.text || !/poderes hereditários|espada encantada|derrotar Sondark/i.test(e.text)), 'proposta não cria poderes hereditários ou supremacia sobre Sondark');
 assert.equal(book.toc.length, 17, '17 capítulos');
 assert.equal(book.events.filter(e => e.type === 'image').length, 98, '98 espaços narrativos');
 assert.equal(book.atlas[0].phases.length, 22, '22 fases de Ryusen');
@@ -84,6 +98,10 @@ assert.match(text('c17-p9'), /medalhão.*aos dez anos/i, 'medalhão Dark recebid
 assert.equal(book.title, 'Ryusen Kurogane Dark', 'identidade do protagonista atualizada');
 assert.ok(book.atlas[0].phases.length === 22, 'todas as fases do Atlas de Ryusen preservadas');
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+assert.match(html, /id="volumePrev"/, 'biblioteca tem controle anterior acessível');
+assert.match(html, /id="volumeNext"/, 'biblioteca tem controle seguinte acessível');
+assert.match(html, /id="kurogane-book-data\.js|kurogane-book-data\.js\?v=/, 'dados do segundo volume incluídos');
+assert.match(fs.readFileSync(path.join(root, 'reader.js'), 'utf8'), /kurogane-reader-/, 'novo volume usa progresso local separado');
 assert.equal((html.match(/src="ryusen-revision\.js/g) || []).length, 1, 'script de revisão incluído uma vez');
 assert.match(fs.readFileSync(path.join(root, 'html-reader.css'), 'utf8'), /\.leaf-body\{overflow:hidden/, 'sem rolagem interna em páginas');
 const readerCss = fs.readFileSync(path.join(root, 'html-reader.css'), 'utf8');

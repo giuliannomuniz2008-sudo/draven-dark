@@ -23,7 +23,7 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 | IV · A Derrota Pública | c4-detail | assets/draven/recreated-2026/narrative/c4-detail.webp | O marcador mecânico e as marcas do percurso molhado registram uma derrota por pequena margem | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | IV · A Derrota Pública | c4-focus-new | assets/draven/recreated-2026/narrative/c4-focus-new.webp | Aos dez anos, após perder uma prova comum, Ryusen tenta acender uma pequena centelha por conta própria; sem tatuagens ou poder extraordinário | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | IV · A Derrota Pública | c4-magic-after-race-final | assets/draven/recreated-2026/narrative/c4-magic-after-race-final.webp | Aos dez anos, depois da derrota no percurso, Ryusen tenta sustentar uma centelha pequena no salão | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
-| IV · A Derrota Pública | c4-practice-detail | assets/ryusen/amostras-prioritarias/c4-medalhao-dark.png | O pai entrega o medalhão Dark a Ryusen aos dez anos, após a derrota numa prova comum. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
+| IV · A Derrota Pública | c4-practice-detail | assets/ryusen/amostras-prioritarias/c4-medalhao-dark.webp | O pai entrega o medalhão Dark a Ryusen aos dez anos, após a derrota numa prova comum. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-relay-letter-final | assets/draven/recreated-2026/narrative/c5-relay-letter-final.webp | Aos onze anos, Ryusen alcança o pacote lacrado recém-chegado pelo relé de comunicação do alojamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-letter-reading-final | assets/draven/recreated-2026/narrative/c5-letter-reading-final.webp | Aos onze anos, Ryusen lê sozinho a carta recém-chegada da mãe no alojamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-i3 | assets/draven/recreated-2026/narrative/c5-i3.webp | Ryusen lê uma carta da mãe no território masculino, junto a um pequeno retalho e referências desenhadas | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
@@ -75,12 +75,12 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 | XIII · A Travessia | c13-focus-new | assets/draven/recreated-2026/narrative/c13-focus-new-identity-v3.webp | Ryusen aos dezesseis anos observa a trava e os sinais antes da travessia suspensa; sem tatuagens ou ação além do treinamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | XIII · A Travessia | c13-waiting-clearance-final | assets/draven/recreated-2026/narrative/c13-waiting-clearance-final-anatomy-v2.webp | Aos dezesseis anos, Ryusen e o guia esperam a segunda leitura estabilizar antes de cruzar a garganta | 1080×1456 · presente | Triagem em mosaico; ampliação individual pendente |
 | XIII · A Travessia | c13-crossing-detail | assets/draven/recreated-2026/narrative/c13-crossing-detail.webp | A travessia é liberada somente depois das leituras de segurança se estabilizarem | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
-| XIV · Sem Controle | c14-i3 | assets/ryusen/recreated-2026/narrative/c14-solo-control.png | Aos dezessete anos, Ryusen pratica sozinho o controle de uma pequena luz mágica; outros jovens treinam atividades distintas ao fundo. | 1024×1536 · presente | Inspecionada em tamanho original |
-| XIV · Sem Controle | c14-reset-pair-final | assets/ryusen/recreated-2026/narrative/c14-solo-failed-curve.png | Ryusen repete individualmente a curva da luz; a tentativa falha e ele examina o próprio erro. | 1024×1536 · presente | Inspecionada em tamanho original |
+| XIV · Sem Controle | c14-i3 | assets/ryusen/recreated-2026/narrative/c14-solo-control.webp | Aos dezessete anos, Ryusen pratica sozinho o controle de uma pequena luz mágica; outros jovens treinam atividades distintas ao fundo. | 1024×1536 · presente | Inspecionada em tamanho original |
+| XIV · Sem Controle | c14-reset-pair-final | assets/ryusen/recreated-2026/narrative/c14-solo-failed-curve.webp | Ryusen repete individualmente a curva da luz; a tentativa falha e ele examina o próprio erro. | 1024×1536 · presente | Inspecionada em tamanho original |
 | XIV · Sem Controle | c14-discussao-final | assets/draven/recreated-2026/narrative/c14-discussao-final.webp | Ryusen discute com um rival após uma tentativa individual; cada um avalia seu próprio resultado. | 1122×1402 · presente | Inspecionada em tamanho original |
 | XIV · Sem Controle | c14-focus-final | assets/draven/recreated-2026/narrative/c14-focus-final.webp | Ryusen aponta a marca da curva enquanto debate com um rival sobre a própria falha; nenhum dos dois compartilha magia. | 1122×1402 · presente | Inspecionada em tamanho original |
-| XIV · Sem Controle | c14-focus | assets/ryusen/recreated-2026/narrative/c14-rival-observes.png | Depois da falha inicial, Ryusen recupera o foco enquanto um rival observa de outra raia, sem participar da magia. | 1024×1536 · presente | Inspecionada em tamanho original |
-| XIV · Sem Controle | c14-detail | assets/ryusen/recreated-2026/narrative/c14-solo-fading-light.png | Aos dezessete anos, Ryusen perde o controle da própria luz ao acelerar na curva final de um exercício individual. | 1024×1536 · presente | Inspecionada em tamanho original |
+| XIV · Sem Controle | c14-focus | assets/ryusen/recreated-2026/narrative/c14-rival-observes.webp | Depois da falha inicial, Ryusen recupera o foco enquanto um rival observa de outra raia, sem participar da magia. | 1024×1536 · presente | Inspecionada em tamanho original |
+| XIV · Sem Controle | c14-detail | assets/ryusen/recreated-2026/narrative/c14-solo-fading-light.webp | Aos dezessete anos, Ryusen perde o controle da própria luz ao acelerar na curva final de um exercício individual. | 1024×1536 · presente | Inspecionada em tamanho original |
 | XV · Relatos da Oamem | c15-focus | assets/draven/recreated-2026/narrative/c15-focus.webp | Ryusen aos dezessete anos lê um relato incompleto no relé público, sem assumir missão ou resposta definitiva. | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | XV · Relatos da Oamem | c15-detail | assets/draven/recreated-2026/narrative/c15-detail.webp | O relé público imprime um relato incompleto, sem emblemas ou detalhes da campanha | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | XV · Relatos da Oamem | c15-i3 | assets/draven/recreated-2026/narrative/c15-i3.webp | Ryusen aos dezessete anos lê um relato público sobre a Oamem num relé de comunicação, sem símbolos da organização | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
@@ -96,14 +96,14 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 | XVI · Marcas Escolhidas | c16-arm-first-lines-final | assets/draven/recreated-2026/narrative/c16-arm-first-lines-final.webp | Aos dezoito anos, começa o primeiro traço no braço de Ryusen; a linha está incompleta e o restante da pele não tem marcas | 1199×1312 · presente | Triagem em mosaico; ampliação individual pendente |
 | XVI · Marcas Escolhidas | c16-back-session-final | assets/draven/recreated-2026/narrative/c16-back-session-final.webp | Ryusen aos dezoito anos recebe a tatuagem nas costas deitado de bruços; o artista trabalha profissionalmente e o motivo permanece parcialmente coberto | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | XVI · Marcas Escolhidas | c16-front-session-final | assets/draven/recreated-2026/narrative/c16-front-session-final.webp | O trabalho na parte frontal é feito com a área protegida e o motivo fora do enquadramento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
-| XVI · Marcas Escolhidas | c16-focus-final | assets/ryusen/amostras-prioritarias/c16-tatuagens-revisao.png | O artista confere as linhas finais das tatuagens de Ryusen, de acordo com a imagem oficial protegida. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
+| XVI · Marcas Escolhidas | c16-focus-final | assets/ryusen/amostras-prioritarias/c16-tatuagens-revisao.webp | O artista confere as linhas finais das tatuagens de Ryusen, de acordo com a imagem oficial protegida. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
 | XVI · Marcas Escolhidas | c16-i16 | assets/draven/recreated-2026/narrative/c16-i16.webp | Aos dezoito anos, Ryusen avalia as tatuagens pessoais concluídas com proporções naturais; a composição oficial permanece a escolhida por ele | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
-| XVI · Marcas Escolhidas | c16-session-finished-final | assets/ryusen/amostras-prioritarias/c16-criacao-mascara-oni.png | Ryusen ajusta e pinta pessoalmente a meia máscara Oni preta e carmesim. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
+| XVI · Marcas Escolhidas | c16-session-finished-final | assets/ryusen/amostras-prioritarias/c16-criacao-mascara-oni.webp | Ryusen ajusta e pinta pessoalmente a meia máscara Oni preta e carmesim. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
 | XVII · O Limiar | c17-novice-result-final | assets/draven/recreated-2026/narrative/c17-novice-result-final.webp | Aos dezenove anos, uma centelha fraca se apaga durante a avaliação comum de Ryusen | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | XVII · O Limiar | c17-i3 | assets/draven/recreated-2026/narrative/c17-i3-identity-v3.webp | Ryusen aos dezenove anos conclui uma avaliação comum com magia simples, ainda iniciante | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | XVII · O Limiar | c17-focus-final | assets/draven/recreated-2026/narrative/c17-focus-final.webp | Ryusen aos dezenove anos reavalia uma medição comum após a falha de uma centelha fraca | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
-| XVII · O Limiar | c17-departure-final | assets/ryusen/amostras-prioritarias/c17-carta-katana.png | Ryusen lê a carta da mãe diante da katana Kurogane recém-entregue. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
-| XVII · O Limiar | c17-limiar-final | assets/ryusen/amostras-prioritarias/c17-partida-oficial.png | Ryusen deixa o território com traje oficial, meia máscara Oni, medalhão Dark e katana Kurogane. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
+| XVII · O Limiar | c17-departure-final | assets/ryusen/amostras-prioritarias/c17-carta-katana.webp | Ryusen lê a carta da mãe diante da katana Kurogane recém-entregue. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
+| XVII · O Limiar | c17-limiar-final | assets/ryusen/amostras-prioritarias/c17-partida-oficial.webp | Ryusen deixa o território com traje oficial, meia máscara Oni, medalhão Dark e katana Kurogane. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
 
 ## Atlas de Ryusen
 
@@ -127,10 +127,10 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 | 16 | 17 anos | Magia em desenvolvimento | assets/draven/recreated-2026/atlas/phase-15.webp | Inspecionada em tamanho original |
 | 17 | 17 anos | Controle individual | assets/draven/recreated-2026/atlas/phase-16.webp | Triagem em mosaico; ampliação individual pendente |
 | 18 | 17 anos | Leitura do relé | assets/draven/recreated-2026/atlas/phase-17.webp | Triagem em mosaico; ampliação individual pendente |
-| 19 | 18 anos | Escolha pessoal | assets/ryusen/atlas/phase-18-ryusen-oficial.png | Triagem em mosaico; ampliação individual pendente |
-| 20 | 19 anos | Retrato oficial | assets/ryusen/atlas/phase-19-ryusen-oficial.png | Triagem em mosaico; ampliação individual pendente |
-| 21 | 19 anos | Às portas da campanha | assets/ryusen/atlas/phase-20-ryusen-oficial.png | Triagem em mosaico; ampliação individual pendente |
-| 22 | 19 anos | Retrato individual | assets/ryusen/atlas/phase-21-ryusen-oficial.png | Triagem em mosaico; ampliação individual pendente |
+| 19 | 18 anos | Escolha pessoal | assets/ryusen/atlas/phase-18-ryusen-oficial.webp | Triagem em mosaico; ampliação individual pendente |
+| 20 | 19 anos | Retrato oficial | assets/ryusen/atlas/phase-19-ryusen-oficial.webp | Triagem em mosaico; ampliação individual pendente |
+| 21 | 19 anos | Às portas da campanha | assets/ryusen/atlas/phase-20-ryusen-oficial.webp | Triagem em mosaico; ampliação individual pendente |
+| 22 | 19 anos | Retrato individual | assets/ryusen/atlas/phase-21-ryusen-oficial.webp | Triagem em mosaico; ampliação individual pendente |
 
 ## Retratos dos demais personagens
 
@@ -147,3 +147,31 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 - DD-C17-01, DD-C17-02 e DD-C17-03: edição localizada restrita às tatuagens ainda depende de ferramenta de máscara precisa.
 - c16-i16, c17-limiar-final, c17-departure-final e atlas-phase-21 permanecem protegidas.
 - A revisão por metadados, vínculo narrativo e presença do arquivo cobre as 98 posições. A inspeção ampliada de cada imagem e das 22 fases não é presumida por este inventário; os estados individuais acima mostram o que ainda precisa de conferência.
+
+## Novo volume — Kurogane: O Legado do Aço (proposta)
+
+- Capa: `assets/kurogane/cover/legado-do-aco.webp` — criada nesta expansão.
+- `KUR-01-01` — `assets/kurogane/narrative/origem-oficina.webp` — Capítulo 1, reconstrução da primeira oficina.
+- `KUR-02-01` — `assets/kurogane/narrative/forja-aprendiz.webp` — Capítulo 2, aprendizagem na forja.
+- `KUR-03-01` — `assets/kurogane/narrative/aprendizado-martelo.webp` — Capítulo 3, orientação no ritmo dos golpes.
+- `KUR-04-01` — `assets/kurogane/narrative/lamina-imperfeita.webp` — Capítulo 4, avaliação de uma lâmina inicial.
+- `KUR-05-01` — `assets/kurogane/narrative/instrucao-espada.webp` — Capítulo 5, instrução com espada de treino.
+- `KUR-06-01` — `assets/kurogane/narrative/caminho-espada.webp` — Capítulo 6, treino técnico de bastões.
+- `KUR-07-01` — `assets/kurogane/narrative/mercado-do-aco.webp` — Capítulo 7, negociação de material.
+- `KUR-08-01` — `assets/kurogane/narrative/qualidade-do-aco.webp` — Capítulo 8, avaliação de matéria-prima e lâmina.
+- `KUR-09-01` — `assets/kurogane/narrative/mecanismos-oficina.webp` — Capítulo 9, mecanismos manuais integrados à oficina.
+- `KUR-10-01` — `assets/kurogane/narrative/inspecao-da-fratura.webp` — Capítulo 10, análise de uma falha.
+- `KUR-11-01` — `assets/kurogane/narrative/oficinas-rivais.webp` — Capítulo 11, encontro entre oficinas concorrentes.
+- `KUR-12-01` — `assets/kurogane/narrative/rivais-inspecao.webp` — Capítulo 12, inspeção de uma fissura antes do prazo.
+- `KUR-13-01` — `assets/kurogane/narrative/noite-da-agua.webp` — Capítulo 13, proteção da oficina durante a tempestade.
+- `KUR-14-01` — `assets/kurogane/narrative/katana-encomendada.webp` — Capítulo 14, conferência da encomenda materna.
+- `KUR-15-01` — `assets/kurogane/narrative/katana-e-carta-envoltas.webp` — Capítulo 15, preparação da caixa e da carta.
+- `KUR-16-01` — `assets/kurogane/narrative/geracoes-de-ferro.webp` — Capítulo 16, instrumentos de medida na oficina.
+- `KUR-17-01` — `assets/kurogane/narrative/transmissao-de-oficio.webp` — Capítulo 17, aprendizagem entre gerações.
+- `KUR-18-01` — `assets/kurogane/narrative/recusa-encomenda-anonima.webp` — Capítulo 18, recusa de encomenda sem procedência.
+- `KUR-19-01` — `assets/kurogane/narrative/diversidade-na-familia.webp` — Capítulo 19, interesses diversos numa família artesã.
+- `KUR-20-01` — `assets/kurogane/narrative/contas-transparentes-aoi.webp` — Capítulo 20, organização compartilhada das contas.
+- `KUR-21-01` — `assets/kurogane/narrative/forja-ao-anoitecer.webp` — Capítulo 21, preparação da oficina ao fim do dia.
+- `KUR-22-01` — `assets/kurogane/narrative/pedidos-da-manha.webp` — Capítulo 22, pedidos locais numa manhã de trabalho.
+- Total visual integrado neste volume: 1 capa + 22 cenas. A meta de 40–80 ilustrações narrativas permanece pendente.
+- Personagens e eventos do novo volume são propostas sujeitas à aprovação de André; não são referências oficiais nem substituem imagens aprovadas de Ryusen.
