@@ -1,5 +1,13 @@
 # Auditoria visual — Segunda Madrugada (22/11/2026)
 
+## Revisão da mãe de Ryusen — Terceira Madrugada
+
+- A proposta anterior de rosto foi reprovada por parecer significativamente mais velha que o pai na mesma época. Os dois arquivos de proposta foram substituídos mantendo os caminhos usados por `c5-mother-two-swords-reference` e pela fase do Atlas.
+- Nova arte de corpo inteiro: mulher adulta de aparência jovem, cabelo branco natural, traje Kurogane preto/vinho e duas espadas; a face é lisa e jovem adulta. Na imagem ampliada não observei membro duplicado: dois braços e mãos visíveis; segura uma espada em cada mão. É uma proposta, não retrato aprovado.
+- Nova ficha de quatro vistas: retrato próximo, frente, combate com duas espadas e vista traseira; rosto, cabelo branco preso e traje mantêm continuidade. No quadro de combate há dois braços e duas mãos, com uma espada em cada mão. Nenhum terceiro braço aparente.
+- Comparação de idade aparente com `c1-i3`: ambos os pais parecem adultos jovens naquela cena; a nova proposta materna aproxima a idade visual do pai. Isso é avaliação visual, não idade canônica. O pai não foi alterado.
+- A cena do parto `c1-i3` foi preservada. A arte nova foi integrada ao evento evocativo do capítulo 5 e ao Atlas por substituição dos mesmos arquivos de proposta. A aparência completa continua pendente de aprovação do mestre André.
+
 ## Identificação da espadachim e revisão materna
 
 - A imagem de espadachim de cabelo escuro era a arte ligada ao evento `c5-mother-two-swords-reference`, no capítulo V, após a passagem em que a mãe escreve sobre sua prática com duas lâminas (`c5-p2`). O próprio vínculo do evento e a descrição narrativa a identificavam como representação da mãe, não apenas como personagem secundária.
@@ -28,6 +36,6 @@ IDs cobertos no mosaico: `k01-i01`, `k01-i02`, `k02-i01`, `k03-i01`, `k03-i02`, 
 ## Pendências não marcadas como concluídas
 
 - As 98 posições do Livro I, 22 fases de Ryusen e retratos dos demais personagens ainda não passaram por uma nova inspeção ampliada, arquivo a arquivo.
-- Os códigos `DD-C17-01`, `DD-C17-02` e `DD-C17-03` não estão ligados a arquivos por código no inventário atual. Não foram aplicadas edições de tatuagem sem mapeamento seguro e máscara que limite alterações à pele.
+- O mapeamento dos códigos foi reconstruído pela mesma ordem de imagens por capítulo que o leitor usa: `DD-C17-01` = `c17-novice-result-final` (`assets/draven/recreated-2026/narrative/c17-novice-result-final.webp`); `DD-C17-02` = `c17-i3` (`assets/draven/recreated-2026/narrative/c17-i3-identity-v3.webp`); `DD-C17-03` = `c17-focus-final` (`assets/draven/recreated-2026/narrative/c17-focus-final.webp`). Nas três, os trechos visíveis de tatuagem variam de posição e desenho entre pescoço/peito e braço. A edição localizada continua pendente: a ferramenta de imagem disponível não aceita uma máscara de pixels; não editei as imagens para evitar alterações no rosto, traje ou cenário.
 - Nenhuma ilustração recebeu correção anatômica nesta auditoria, pois os candidatos ampliados não confirmaram o defeito de três braços e os outros arquivos não tiveram revisão individual suficiente.
 - As imagens aprovadas e protegidas permanecem sem alteração.
