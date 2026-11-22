@@ -51,8 +51,29 @@ assert.match(text('c5-p1'), /a cultura Dark barrava mulheres do território.*alc
 assert.match(text('c7-p1'), /catástrofe de Belzebu.*reconstrução avançara em ritmos diferentes/i, 'ambientação pós-catástrofe e reconstrução desigual');
 assert.match(text('c14-p11'), /diante dos veteranos.*instrução, repetição e limites/i, 'talento de Ryusen não o coloca acima dos veteranos');
 assert.doesNotMatch(book.events.filter(e => e.type === 'text').map(e => e.text).join('\n'), /despertar das correntes|manifestação rara|elo sobrenatural|correntes sobrenaturais de Ryusen/i, 'Ryusen não recebe poder de correntes nem despertar não aprovado');
-assert.equal(book.events.find(e => e.eventId === 'c14-detail').src, 'assets/ryusen/recreated-2026/narrative/c14-paired-magic-correction.png', 'posição visual de c14 mostra magia comum, sem poder não canônico');
-assert.ok(fs.existsSync(path.join(root, book.events.find(e => e.eventId === 'c14-detail').src)), 'nova ilustração de treino está integrada ao projeto');
+for (const [id, expected] of [
+  ['c14-i3', 'assets/ryusen/recreated-2026/narrative/c14-solo-control.png'],
+  ['c14-reset-pair-final', 'assets/ryusen/recreated-2026/narrative/c14-solo-failed-curve.png'],
+  ['c14-focus', 'assets/ryusen/recreated-2026/narrative/c14-rival-observes.png'],
+  ['c14-detail', 'assets/ryusen/recreated-2026/narrative/c14-solo-fading-light.png']
+]) {
+  const event = book.events.find(e => e.eventId === id);
+  assert.equal(event.src, expected, `${id} aponta para a cena revisada`);
+  assert.ok(fs.existsSync(path.join(root, event.src)), `${id} tem ilustração integrada`);
+}
+const c9MagicImage = book.events.find(e => e.eventId === 'c9-magic-duo-final');
+assert.equal(c9MagicImage.src, 'assets/draven/recreated-2026/narrative/c9-magic-duo-final.webp', 'cena C9 original que já mostra luzes separadas é preservada');
+assert.match(c9MagicImage.alt, /suportes separados.*própria luz/i, 'legenda do C9 descreve duas práticas individuais');
+const c14Text = book.events.filter(e => e.eventId.startsWith('c14-p')).map(e => e.text).join('\n');
+assert.doesNotMatch(c14Text, /exercício em dupla|exercícios em dupla|parceiro capaz|resultado pertencia aos dois|luz comum entre|alternavam o ritmo/i, 'capítulo 14 não apresenta magia cooperativa como treino');
+assert.match(c14Text, /avaliação individual/i, 'capítulo 14 usa avaliação individual de magia');
+assert.match(c14Text, /espada de treino.*resistência/i, 'capítulo 14 mostra práticas independentes e diversas');
+assert.match(text('c8-p2'), /lados opostos.*manter a centelha acesa/i, 'disputa mágica C8 é competitiva, cada jovem conduz a própria luz');
+assert.match(book.events.find(e => e.eventId === 'c8-i4').alt, /disputam.*exercício mágico básico/i, 'legenda da disputa C8 corresponde a práticas paralelas');
+const c9Text = book.events.filter(e => e.eventId.startsWith('c9-p')).map(e => e.text).join('\n');
+assert.doesNotMatch(c9Text, /trabalho em pares|ritmo comum|alternar a condução de uma luz/i, 'capítulo 9 não centraliza treinamento colaborativo de magia');
+assert.match(c9Text, /cada um em sua raia/i, 'capítulo 9 preserva rivalidade em provas individuais');
+assert.match(book.events.find(e => e.eventId === 'c2-p3').text, /reservou a Ryusen.*nem todos tinham a mesma aptidão/i, 'magia infantil é prática de Ryusen, não currículo universal');
 const visualInventory = fs.readFileSync(path.join(root, 'INVENTARIO-VISUAL.md'), 'utf8');
 for (const code of ['DD-C17-01', 'DD-C17-02', 'DD-C17-03', 'c16-i16']) assert.ok(visualInventory.includes(code), `inventário visual registra ${code}`);
 assert.doesNotMatch(text('c15-p10'), /habilidade herdada/i, 'o leitor não afirma que Ryusen herdou os poderes de Sondark');
@@ -77,6 +98,7 @@ assert.match(reader, /largestFittingPart/, 'parágrafos são divididos para cont
 assert.match(reader, /scheduleRepagination/, 'mudanças de orientação e tela recalculam a paginação');
 assert.match(reader, /draven-reader-anchor/, 'posição de leitura persiste localmente');
 assert.match(reader, /atlasPhaseUnlocked/, 'fases do Atlas são desbloqueadas pelo progresso');
+assert.match(readerCss, /@media\(max-width:480px\)\{\.atlas-content\{grid-template-columns:minmax\(0,1fr\)/, 'Atlas usa coluna ampla e texto maior em celular estreito');
 assert.match(reader, /busy=false\},900\)/, 'estado de virada aguarda a animação concluir');
 assert.match(fs.readFileSync(path.join(root, 'style.css'), 'utf8'), /turnNext 900ms/, 'duração visual da virada coincide com o leitor');
 assert.match(html, /id="atlasToggle"[^>]*aria-label=/, 'atalho do Atlas tem rótulo acessível');
