@@ -1,6 +1,6 @@
 # Inventário visual do livro
 
-Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilustração complementar no capítulo 5; 22 fases de Ryusen; 8 personagens. A triagem adicional da Segunda Madrugada está registrada em [AUDITORIA-ANATOMICA-SEGUNDA-MADRUGADA.md](AUDITORIA-ANATOMICA-SEGUNDA-MADRUGADA.md); ela não equivale a inspeção ampliada completa. O leitor aplica os caminhos depois de carregar ryusen-revision.js.
+Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilustração complementar no capítulo 5; 22 fases de Ryusen; 8 personagens. A triagem visual de 99 imagens narrativas e 22 fases do Atlas em folhas de contato, além da inspeção individual das 42 imagens Kurogane, está registrada em [AUDITORIA-ANATOMICA-SEGUNDA-MADRUGADA.md](AUDITORIA-ANATOMICA-SEGUNDA-MADRUGADA.md). Essa triagem não equivale à inspeção ampliada completa das imagens Ryusen e do Atlas. O leitor aplica os caminhos depois de carregar ryusen-revision.js.
 
 ## Imagens narrativas
 

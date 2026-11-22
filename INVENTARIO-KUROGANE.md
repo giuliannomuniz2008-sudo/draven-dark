@@ -19,7 +19,7 @@ Capa atual: `assets/kurogane/cover/legado-do-aco-wealth.webp` — complexo Kurog
 - **KUR-08-01** — `assets/kurogane/narrative/k08-qualidade-aco-oriental.webp` — Kaede e Hana separam aço adequado para lâminas de material para ferragens.
 - **KUR-08-02** — `assets/kurogane/narrative/k08-revisao-arsenal.webp` — Um responsável pelo arsenal e um guarda conferem armas e equipamentos.
 - **KUR-09-01** — `assets/kurogane/narrative/k09-oficinas-orientais.webp` — Oficinas especializadas integram mecanismos mantidos à arquitetura tradicional.
-- **KUR-09-02** — `assets/kurogane/narrative/k09-distrito-territorial.webp` — Vista do território regional Kurogane com muralhas, residências, forjas e pátio de treino.
+- **KUR-09-02** — `assets/kurogane/narrative/k09-distrito-territorial.webp` — Vista do distrito Kurogane muralhado, com jardins irrigados e curso d’água interno; revisão visual: não há costa ou mar aberto.
 - **KUR-09-03** — `assets/kurogane/narrative/k01-portao-fortificado.webp` — Portão regional fortificado com sentinelas Kurogane em uniforme coordenado.
 - **KUR-10-01** — `assets/kurogane/narrative/k10-fratura-inspecao-oriental.webp` — Hana e Ren registram uma falha numa lâmina devolvida.
 - **KUR-10-02** — `assets/kurogane/narrative/k10-inspecao-patrulha.webp` — Hana, um guarda e um responsável anotam a inspeção de uma lâmina devolvida.
@@ -27,8 +27,8 @@ Capa atual: `assets/kurogane/cover/legado-do-aco-wealth.webp` — complexo Kurog
 - **KUR-11-02** — `assets/kurogane/narrative/k11-patrulha-portao.webp` — Patrulhas coordenadas trocam registros de turno sob um portão fortificado.
 - **KUR-12-01** — `assets/kurogane/narrative/k12-rivais-inspecao-oriental.webp` — Artesãos rivais inspecionam juntos uma fissura na lâmina.
 - **KUR-12-02** — `assets/kurogane/narrative/k12-demonstracao-tecnica.webp` — Uma espadachim demonstra técnica controlada no dojo enquanto aprendizes observam.
-- **KUR-13-01** — `assets/kurogane/narrative/k13-noite-agua-oriental.webp` — Moradores, artesãos e guardas protegem o distrito durante a tempestade.
-- **KUR-13-02** — `assets/kurogane/narrative/k13-recuperacao-pos-tempestade.webp` — Guardas e artesãos reabrem o distrito e verificam os danos depois da tempestade.
+- **KUR-13-01** — `assets/kurogane/narrative/k13-noite-agua-oriental.webp` — Noite da tempestade localizada na rota baixa junto às oficinas.
+- **KUR-13-02** — `assets/kurogane/narrative/k13-recuperacao-pos-tempestade.webp` — Manhã seguinte no setor mais amplo de mercado e armazéns, outra área do mesmo distrito; não é a mesma rua de KUR-13-01.
 - **KUR-14-01** — `assets/kurogane/narrative/k14-katana-encomendada-oriental.webp` — A katana adulta encomendada pela mãe de Ryusen repousa em caixa artesanal adequada.
 - **KUR-14-02** — `assets/kurogane/narrative/k14-escolta-caixa-katana.webp` — Uma escolta regional prende a caixa fechada da katana ao carro de entrega.
 - **KUR-15-01** — `assets/kurogane/narrative/k15-carta-e-caixa-oriental.webp` — Iori prepara a caixa da katana junto à carta materna para envio.
