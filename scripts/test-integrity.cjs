@@ -17,7 +17,7 @@ assert.equal(kurogane.toc.length, 22, '22 capítulos de Kurogane (obra proposta)
 assert.equal(kurogane.events.filter(e => e.type === 'heading').length, 22, 'sumário do segundo volume corresponde aos capítulos');
 assert.equal(new Set(kurogane.events.map(e => e.eventId)).size, kurogane.events.length, 'IDs independentes do segundo volume sem duplicatas');
 assert.ok(kurogane.proposal, 'segundo volume marcado como narrativa proposta');
-assert.equal(kurogane.events.filter(e => e.type === 'image').length, 22, 'vinte e duas ilustrações narrativas Kurogane integradas');
+assert.equal(kurogane.events.filter(e => e.type === 'image').length, 40, 'quarenta ilustrações narrativas Kurogane integradas');
 assert.ok(fs.existsSync(path.join(root, kurogane.cover)), 'capa Kurogane local presente');
 for (const event of kurogane.events) if (event.type === 'image') {
   assert.ok(fs.existsSync(path.join(root, event.src)), `imagem Kurogane integrada: ${event.eventId}`);
@@ -26,6 +26,10 @@ for (const event of kurogane.events) if (event.type === 'image') {
 assert.ok(kurogane.events.some(e => e.eventId === 'k14-p1' && /mulher da linhagem materna de Ryusen encomendava uma katana/i.test(e.text)), 'a encomenda materna aparece na passagem narrativa proposta');
 assert.ok(kurogane.events.every(e => !e.text || !/destino da mãe|mãe morreu|mãe desapareceu/i.test(e.text)), 'destino da mãe permanece indefinido');
 assert.ok(kurogane.events.every(e => !e.text || !/poderes hereditários|espada encantada|derrotar Sondark/i.test(e.text)), 'proposta não cria poderes hereditários ou supremacia sobre Sondark');
+assert.equal(kurogane.events.filter(e => /-regional-context$/.test(e.eventId)).length, 22, 'os 22 capítulos receberam expansão proposta de identidade regional');
+assert.equal(kurogane.events.filter(e => e.type === 'image' && /-i0[23]$/.test(e.eventId)).length, 18, '18 cenas novas distribuídas dentro dos capítulos');
+assert.ok(kurogane.events.filter(e => e.type === 'image').every(e => /^assets\/kurogane\/narrative\/.+\.webp$/.test(e.src)), 'imagens Kurogane em WebP com caminhos relativos');
+assert.ok(kurogane.events.filter(e => e.type === 'image').every(e => e.pixelWidth === 1536 && e.pixelHeight === 1024), 'metadados visuais das imagens Kurogane consistentes');
 assert.equal(book.toc.length, 17, '17 capítulos');
 assert.equal(book.events.filter(e => e.type === 'image').length, 98, '98 espaços narrativos');
 assert.equal(book.atlas[0].phases.length, 22, '22 fases de Ryusen');

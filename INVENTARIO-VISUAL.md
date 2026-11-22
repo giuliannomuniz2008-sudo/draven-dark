@@ -148,30 +148,6 @@ Atualizado em 22/11/2026. 98 posições narrativas; 22 fases de Ryusen; 8 person
 - c16-i16, c17-limiar-final, c17-departure-final e atlas-phase-21 permanecem protegidas.
 - A revisão por metadados, vínculo narrativo e presença do arquivo cobre as 98 posições. A inspeção ampliada de cada imagem e das 22 fases não é presumida por este inventário; os estados individuais acima mostram o que ainda precisa de conferência.
 
-## Novo volume — Kurogane: O Legado do Aço (proposta)
+## Volume Kurogane — revisão de 22/11/2026
 
-- Capa: `assets/kurogane/cover/legado-do-aco.webp` — criada nesta expansão.
-- `KUR-01-01` — `assets/kurogane/narrative/origem-oficina.webp` — Capítulo 1, reconstrução da primeira oficina.
-- `KUR-02-01` — `assets/kurogane/narrative/forja-aprendiz.webp` — Capítulo 2, aprendizagem na forja.
-- `KUR-03-01` — `assets/kurogane/narrative/aprendizado-martelo.webp` — Capítulo 3, orientação no ritmo dos golpes.
-- `KUR-04-01` — `assets/kurogane/narrative/lamina-imperfeita.webp` — Capítulo 4, avaliação de uma lâmina inicial.
-- `KUR-05-01` — `assets/kurogane/narrative/instrucao-espada.webp` — Capítulo 5, instrução com espada de treino.
-- `KUR-06-01` — `assets/kurogane/narrative/caminho-espada.webp` — Capítulo 6, treino técnico de bastões.
-- `KUR-07-01` — `assets/kurogane/narrative/mercado-do-aco.webp` — Capítulo 7, negociação de material.
-- `KUR-08-01` — `assets/kurogane/narrative/qualidade-do-aco.webp` — Capítulo 8, avaliação de matéria-prima e lâmina.
-- `KUR-09-01` — `assets/kurogane/narrative/mecanismos-oficina.webp` — Capítulo 9, mecanismos manuais integrados à oficina.
-- `KUR-10-01` — `assets/kurogane/narrative/inspecao-da-fratura.webp` — Capítulo 10, análise de uma falha.
-- `KUR-11-01` — `assets/kurogane/narrative/oficinas-rivais.webp` — Capítulo 11, encontro entre oficinas concorrentes.
-- `KUR-12-01` — `assets/kurogane/narrative/rivais-inspecao.webp` — Capítulo 12, inspeção de uma fissura antes do prazo.
-- `KUR-13-01` — `assets/kurogane/narrative/noite-da-agua.webp` — Capítulo 13, proteção da oficina durante a tempestade.
-- `KUR-14-01` — `assets/kurogane/narrative/katana-encomendada.webp` — Capítulo 14, conferência da encomenda materna.
-- `KUR-15-01` — `assets/kurogane/narrative/katana-e-carta-envoltas.webp` — Capítulo 15, preparação da caixa e da carta.
-- `KUR-16-01` — `assets/kurogane/narrative/geracoes-de-ferro.webp` — Capítulo 16, instrumentos de medida na oficina.
-- `KUR-17-01` — `assets/kurogane/narrative/transmissao-de-oficio.webp` — Capítulo 17, aprendizagem entre gerações.
-- `KUR-18-01` — `assets/kurogane/narrative/recusa-encomenda-anonima.webp` — Capítulo 18, recusa de encomenda sem procedência.
-- `KUR-19-01` — `assets/kurogane/narrative/diversidade-na-familia.webp` — Capítulo 19, interesses diversos numa família artesã.
-- `KUR-20-01` — `assets/kurogane/narrative/contas-transparentes-aoi.webp` — Capítulo 20, organização compartilhada das contas.
-- `KUR-21-01` — `assets/kurogane/narrative/forja-ao-anoitecer.webp` — Capítulo 21, preparação da oficina ao fim do dia.
-- `KUR-22-01` — `assets/kurogane/narrative/pedidos-da-manha.webp` — Capítulo 22, pedidos locais numa manhã de trabalho.
-- Total visual integrado neste volume: 1 capa + 22 cenas. A meta de 40–80 ilustrações narrativas permanece pendente.
-- Personagens e eventos do novo volume são propostas sujeitas à aprovação de André; não são referências oficiais nem substituem imagens aprovadas de Ryusen.
+O inventário anterior deste volume foi substituído pela lista atualizada de 40 imagens em [INVENTARIO-KUROGANE.md](INVENTARIO-KUROGANE.md). A auditoria visual e os arquivos originais estão preservados em documentos e backups separados. O livro principal e suas referências visuais não foram alterados nesta reformulação.

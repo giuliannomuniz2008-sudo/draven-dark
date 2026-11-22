@@ -25,28 +25,28 @@
     ["Kurogane", "A manhã seguinte trouxe pedidos pequenos, os que sustentavam uma oficina mais que as encomendas raras. Uma dobradiça, um conjunto de ferramentas, uma espada para alguém que sabia exatamente como pretendia usá-la. Os artesãos aceitaram alguns trabalhos e recusaram outros. A casa continuou regional em alcance, especializada em aço e combate com lâminas, sem se tornar uma potência mundial. Havia estradas que não controlava, mercados onde era apenas um nome entre muitos e conflitos que não tinha meios de resolver.", "A última palavra desta história é também o nome que a proposta deseja submeter ao mestre: Kurogane. Não como prova de que toda pessoa da família era guerreira, nem como promessa de que toda arma seria lendária. Como nome de uma tradição construída por quem aprendeu a trabalhar, testar, ensinar e responder pelo que entregava. A origem, os personagens históricos e os episódios destas páginas permanecem proposta narrativa. O que pertence à história já estabelecida é mais simples e mais pessoal: Ryusen tem uma herança materna Kurogane, recebeu da mãe uma katana encomendada a ferreiros de sua família e seguirá construindo seu próprio caminho." ]
   ];
   const images = {
-    'k01-i01': ['assets/kurogane/narrative/origem-oficina.webp','Kaede e os moradores recuperam uma oficina após a destruição.',1672,941],
-    'k02-i01': ['assets/kurogane/narrative/forja-aprendiz.webp','Kaede e uma aprendiz trabalham juntas na primeira forja.',1672,941],
-    'k03-i01': ['assets/kurogane/narrative/aprendizado-martelo.webp','Kaede orienta Hana no ritmo dos golpes de forja.',1672,941],
-    'k04-i01': ['assets/kurogane/narrative/lamina-imperfeita.webp','Daisuke e Hana avaliam uma lâmina de teste com equilíbrio imperfeito.',1752,897],
-    'k05-i01': ['assets/kurogane/narrative/instrucao-espada.webp','Um aprendiz recebe instrução técnica no manejo de uma espada de treino.',1672,941],
-    'k06-i01': ['assets/kurogane/narrative/caminho-espada.webp','Hana e Ren praticam uma disputa técnica de bastões no pátio.',1753,897],
-    'k07-i01': ['assets/kurogane/narrative/mercado-do-aco.webp','Sena negocia uma pequena amostra de metal no mercado regional.',1672,941],
-    'k08-i01': ['assets/kurogane/narrative/qualidade-do-aco.webp','Artesãos comparam uma lâmina de trabalho e um lingote de qualidade incerta.',1672,941],
-    'k09-i01': ['assets/kurogane/narrative/mecanismos-oficina.webp','Artesãos operam mecanismos manuais integrados à oficina medieval.',1672,941],
-    'k10-i01': ['assets/kurogane/narrative/inspecao-da-fratura.webp','Hana e Ren registram a falha de uma lâmina devolvida.',1672,941],
-    'k11-i01': ['assets/kurogane/narrative/oficinas-rivais.webp','Duas oficinas rivais investigam um lote de ferramentas misturado.',1672,941],
-    'k12-i01': ['assets/kurogane/narrative/rivais-inspecao.webp','Artesãos rivais inspecionam uma fissura fina antes de aceitar o prazo.',1672,941],
-    'k13-i01': ['assets/kurogane/narrative/noite-da-agua.webp','A comunidade protege a oficina durante uma tempestade.',1672,941],
-    'k14-i01': ['assets/kurogane/narrative/katana-encomendada.webp','Uma katana adulta é conferida numa caixa artesanal neutra encomendada pela mãe de Ryusen.',2172,724],
-    'k15-i01': ['assets/kurogane/narrative/katana-e-carta-envoltas.webp','Uma artesã envolve a caixa longa da katana ao lado da carta materna.',1672,941],
-    'k16-i01': ['assets/kurogane/narrative/geracoes-de-ferro.webp','Artesãos usam instrumentos de medida junto à forja tradicional.',1672,941],
-    'k17-i01': ['assets/kurogane/narrative/transmissao-de-oficio.webp','Um aprendiz observa a técnica de uma geração anterior.',1672,941],
-    'k18-i01': ['assets/kurogane/narrative/recusa-encomenda-anonima.webp','Uma artesã recusa uma encomenda apressada sem procedência.',1672,941],
-    'k19-i01': ['assets/kurogane/narrative/diversidade-na-familia.webp','Uma criança de família artesã escolhe praticar música.',1672,941],
-    'k20-i01': ['assets/kurogane/narrative/contas-transparentes-aoi.webp','Aoi revisa as contas da oficina com seus trabalhadores.',1672,941],
-    'k21-i01': ['assets/kurogane/narrative/forja-ao-anoitecer.webp','Trabalhadores protegem a forja e organizam as ferramentas ao anoitecer.',1672,941],
-    'k22-i01': ['assets/kurogane/narrative/pedidos-da-manha.webp','Artesãos atendem pedidos comuns numa manhã de oficina.',1672,941]
+    'k01-i01': ['assets/kurogane/narrative/k01-origem-oriental.webp','Kaede e Daisuke reconstroem uma forja oriental após a destruição.',1536,1024],
+    'k02-i01': ['assets/kurogane/narrative/k02-primeira-forja-oriental.webp','Kaede e uma aprendiz acendem a primeira forja renovada.',1536,1024],
+    'k03-i01': ['assets/kurogane/narrative/k03-martelo-oriental.webp','Kaede ensina Hana a trabalhar o metal com ritmo e proteção.',1536,1024],
+    'k04-i01': ['assets/kurogane/narrative/k04-lamina-imperfeita-oriental.webp','Daisuke testa a lâmina imperfeita enquanto Kaede e Hana observam.',1536,1024],
+    'k05-i01': ['assets/kurogane/narrative/k05-mestres-aprendizes-oriental.webp','Hana e Daisuke orientam aprendizes entre a oficina e o pátio.',1536,1024],
+    'k06-i01': ['assets/kurogane/narrative/k06-caminho-espada-oriental.webp','Hana e Ren disputam um treino técnico com espadas de madeira.',1536,1024],
+    'k07-i01': ['assets/kurogane/narrative/k07-mercado-aco-oriental.webp','Sena negocia uma amostra de aço num mercado regional organizado.',1536,1024],
+    'k08-i01': ['assets/kurogane/narrative/k08-qualidade-aco-oriental.webp','Kaede e Hana separam aço adequado para lâminas de material para ferragens.',1536,1024],
+    'k09-i01': ['assets/kurogane/narrative/k09-oficinas-orientais.webp','Oficinas especializadas integram mecanismos mantidos à arquitetura tradicional.',1536,1024],
+    'k10-i01': ['assets/kurogane/narrative/k10-fratura-inspecao-oriental.webp','Hana e Ren registram uma falha numa lâmina devolvida.',1536,1024],
+    'k11-i01': ['assets/kurogane/narrative/k11-oficinas-rivais-oriental.webp','Hana e Sadao investigam caixas trocadas com testemunhas locais.',1536,1024],
+    'k12-i01': ['assets/kurogane/narrative/k12-rivais-inspecao-oriental.webp','Artesãos rivais inspecionam juntos uma fissura na lâmina.',1536,1024],
+    'k13-i01': ['assets/kurogane/narrative/k13-noite-agua-oriental.webp','Moradores, artesãos e guardas protegem o distrito durante a tempestade.',1536,1024],
+    'k14-i01': ['assets/kurogane/narrative/k14-katana-encomendada-oriental.webp','A katana adulta encomendada pela mãe de Ryusen repousa em caixa artesanal adequada.',1536,1024],
+    'k15-i01': ['assets/kurogane/narrative/k15-carta-e-caixa-oriental.webp','Iori prepara a caixa da katana junto à carta materna para envio.',1536,1024],
+    'k16-i01': ['assets/kurogane/narrative/k16-geracoes-instrumentos-oriental.webp','Aoi e uma artesã experiente comparam lâminas com instrumentos de medição.',1536,1024],
+    'k17-i01': ['assets/kurogane/narrative/k17-transmissao-oficio-oriental.webp','Uma geração transmite ferramentas e conhecimento à seguinte.',1536,1024],
+    'k18-i01': ['assets/kurogane/narrative/k18-recusa-encomenda-oriental.webp','Hana recusa um contrato anônimo e preserva o registro da lâmina.',1536,1024],
+    'k19-i01': ['assets/kurogane/narrative/k19-diversidade-familia-oriental.webp','Moradores de diferentes ofícios compartilham um momento no pátio.',1536,1024],
+    'k20-i01': ['assets/kurogane/narrative/k20-contas-transparentes-oriental.webp','Aoi coordena os registros de abastecimento e operação da oficina.',1536,1024],
+    'k21-i01': ['assets/kurogane/narrative/k21-forja-noite-oriental.webp','Trabalhadores fecham a forja e fazem a ronda noturna do complexo.',1536,1024],
+    'k22-i01': ['assets/kurogane/narrative/k22-pedidos-da-manha-oriental.webp','Artesãos, comerciante e guarda organizam pedidos numa manhã regional.',1536,1024]
   };
   const events = [];
   const toc = chapters.map(([title,...paragraphs],i)=>{
@@ -61,9 +61,69 @@
     }
     return {title,eventId:titleId,sourcePage:n};
   });
+  // Expansão proposta da sociedade Kurogane: as passagens abaixo desenvolvem
+  // a defesa regional sem as transformar em fatos oficiais do cenário.
+  const regionalAdditions = [
+    {chapter:1,text:'A reconstrução também exigia vigiar o caminho. Daisuke combinou turnos curtos com moradores que já sabiam circular pela encosta; ninguém recebeu um título permanente nem uma ordem de conquista. O primeiro posto era apenas um abrigo de madeira junto à entrada, mas a decisão de manter olhos atentos tornou-se parte do esforço comum. Nesta proposta, a futura força Kurogane nasce da proteção do próprio lugar, não de uma campanha de expansão.'},
+    {chapter:2,text:'Quando as ferramentas começaram a atender mais casas, também surgiu uma rotina para guardar o metal e controlar o acesso ao galpão. Dois moradores se revezavam na entrada durante a noite; de dia, a mesma porta permanecia aberta para aprendizes e fornecedores. A segurança não era uma instituição pronta, mas um cuidado prático que acompanhava o crescimento da oficina.'},
+    {chapter:3,text:'Daisuke separou um trecho do pátio para exercícios com madeira. Ali, uma pessoa podia aprender guarda e distância sem entrar na zona quente da forja. O treino continuava simples, mas a repetição já revelava diferença entre força desordenada e um movimento que deixava espaço para o próximo praticante.',image:'k03-treino-individual.webp',alt:'Um instrutor Kurogane demonstra postura e guarda com katana no pátio.'},
+    {chapter:4,text:'A correção da lâmina passou a ser acompanhada por um exercício controlado. Hana e Ren trocaram golpes com bastões diante de Daisuke, que interrompeu o duelo quando a pressa desfez a distância segura. O resultado não deu prestígio a nenhum deles; mostrou como o teste de uma arma dependia também de quem a empunhava.',image:'k04-duelo-supervisionado.webp',alt:'Hana e Ren treinam um duelo supervisionado com armas de madeira.'},
+    {chapter:5,text:'Com novos aprendizes, o pátio ganhou horários próprios e responsabilidades claras. Alguns treinavam; outros preparavam o espaço, cuidavam dos equipamentos ou registravam os exercícios. A organização não tornou todos soldados: criou um modo seguro de ensinar quem desejava aprender a espada e de respeitar quem preferia outra função.',image:'k05-formacao-patio.webp',alt:'Uma pequena unidade Kurogane executa exercícios coordenados no pátio.'},
+    {chapter:6,text:'Daisuke começou a corrigir a postura individual antes de exigir velocidade. A lâmina precisava permanecer no próprio eixo; os pés, deixar uma rota de recuo; a atenção, acompanhar o parceiro. A tradição proposta valoriza técnica repetível, não golpes impossíveis nem uma vitória garantida pelo sobrenome.',image:'k06-patrulha-muralha.webp',alt:'Sentinelas Kurogane fazem ronda disciplinada sobre as muralhas.'},
+    {chapter:7,text:'Sena percebeu que encomendas maiores só seriam viáveis se chegassem ao destino com segurança. Para um trajeto curto, organizou uma escolta pequena: dois guardas, um carro leve e uma lista de carga conferida por quem entregava e por quem recebia. O serviço tinha custo e limite; não transformava cada estrada em território Kurogane.',image:'k07-escolta-comercial.webp',alt:'Guardas acompanham uma remessa de armas por uma rota comercial regional.'},
+    {chapter:8,text:'O nome gravado nos registros passou a aparecer também em caixas de transporte e folhas de manutenção. A reputação atraía compradores e, com eles, a obrigação de proteger mercadorias e informações. Um responsável podia coordenar a guarda de uma entrega, mas nenhum cargo histórico ou brasão oficial é estabelecido por esta narrativa.',image:'k08-revisao-arsenal.webp',alt:'Um responsável pelo arsenal e um guarda conferem armas e equipamentos.'},
+    {chapter:9,text:'Com o trabalho crescendo por gerações, a oficina deixou de ocupar sozinha o centro da vida local. A proposta imagina um distrito de forjas separado das casas, pátios de treino ligados às muralhas e caminhos que conduziam ao mercado e aos depósitos. A arquitetura continuava de madeira, pedra e telhas tradicionais; mecanismos de drenagem, sinalização e medição eram mantidos por quem sabia repará-los.',image:'k09-distrito-territorial.webp',alt:'Vista do território regional Kurogane com muralhas, residências, forjas e pátio de treino.'},
+    {chapter:10,text:'Depois da devolução da lâmina, a inspeção ganhou etapas verificáveis. Uma pessoa registrava a falha, outra examinava o encaixe e um guarda podia explicar como a arma fora usada, sem atribuir automaticamente a quebra a mau uso. A rotina ligava artesãos e defensores: cada parte contribuía com conhecimento diferente.',image:'k10-inspecao-patrulha.webp',alt:'Hana, um guarda e um responsável anotam a inspeção de uma lâmina devolvida.'},
+    {chapter:11,text:'A confusão dos lotes levou as oficinas a combinar marcas de entrega e horários de passagem junto ao portão. Uma patrulha fazia a conferência da rota, não para pressionar os concorrentes, mas para impedir nova troca de caixas. A rivalidade permaneceu comercial e local; a disciplina ajudava a conter o conflito, não a vencê-lo pela força.',image:'k11-patrulha-portao.webp',alt:'Patrulhas coordenadas trocam registros de turno sob um portão fortificado.'},
+    {chapter:12,text:'Quando a disputa ameaçou sair da bancada, Daisuke propôs demonstrar os dois métodos num exercício de corte contra alvos preparados. O teste não decidiu qual oficina era superior em tudo: expôs diferenças de equilíbrio, manutenção e finalidade. A observação técnica substituiu a provocação por uma discussão que ainda podia ser retomada.',image:'k12-demonstracao-tecnica.webp',alt:'Uma espadachim demonstra técnica controlada no dojo enquanto aprendizes observam.'},
+    {chapter:13,text:'A água subiu primeiro nos caminhos baixos. Guardas fecharam uma comporta, orientaram as famílias para o pátio alto e levaram material inflamável para depósitos secos; os ferreiros suspenderam o fogo até a drenagem ficar segura. A resposta exigiu coordenação e conhecimento do terreno, não uma batalha nem um poder extraordinário.',image:'k13-resposta-tempestade.webp',alt:'Guardas e artesãos coordenam a proteção do território durante uma tempestade.'},
+    {chapter:14,text:'Antes de embalar a katana encomendada pela mãe de Ryusen, Iori conferiu a bainha, o comprimento e o apoio interno da caixa. A entrega seguia como encomenda familiar, não como ato de uma autoridade política. A oficina preparou um registro simples para que a arma chegasse inteira ao destinatário, sem acrescentar um brasão Kurogane não aprovado.',image:'k14-entrega-encomenda.webp',alt:'Uma katana adulta é inspecionada em caixa artesanal longa antes do envio.'},
+    {chapter:15,text:'A promessa de qualidade incluiu também o que vinha depois da venda. Guardas podiam trazer uma lâmina para limpeza ou reparo; artesãos explicavam o que o desgaste permitia corrigir e quando uma peça devia ser retirada de uso. Essa rede de manutenção dava trabalho regular ao clã e mantinha o equipamento útil sem torná-lo indestrutível.',image:'k15-manutencao-armas.webp',alt:'Um guarda e uma artesã fazem manutenção cuidadosa de armas no arsenal.'},
+    {chapter:16,text:'Uma lâmina recém-finalizada era testada em condições controladas antes de receber marca de procedência. Kaede observava a resposta do aço; Daisuke, o equilíbrio na mão e a segurança do movimento. Ferramentas de medição ajudavam a comparar lotes, mas a decisão continuava humana e sujeita a revisão.',image:'k16-teste-lamina.webp',alt:'Kaede e Daisuke avaliam uma lâmina num teste controlado entre forja e pátio.'},
+    {chapter:17,text:'Daisuke deixou aos aprendizes mais do que uma sequência de golpes. Ensinou a reconhecer fadiga, recuar quando o piso ficava inseguro e interromper um exercício antes que orgulho virasse acidente. Na geração seguinte, o pátio mantinha aulas para diferentes níveis, enquanto cada pessoa podia escolher se sua contribuição seria a espada, a forja ou outro ofício.',image:'k17-instrutor-aprendizes.webp',alt:'Um instrutor veterano corrige a postura de aprendizes no dojo.'},
+    {chapter:18,text:'A recusa do contrato anônimo não encerrou o comércio. A oficina continuou aceitando pedidos rastreáveis e limitados à capacidade de produção; os responsáveis pelo arsenal conferiam o destino de cada arma antes da remessa. Os Kurogane podiam negociar além da região, mas não controlavam os compradores nem os conflitos em que as lâminas seriam usadas.'},
+    {chapter:19,text:'As cartas maternas de Ryusen descreviam práticas e lembranças que pertenciam à experiência de sua mãe, não a uma regra universal para todos os Kurogane. A proposta mantém essa diversidade também no território: moradores podiam vestir-se, trabalhar e aprender de maneiras diferentes, desde que as funções comuns — guarda, treino, comércio e oficina — fossem respeitadas.'},
+    {chapter:20,text:'A estabilidade dependia de contas, abastecimento e manutenção, não de riqueza ilimitada. Aoi organizou registros de carvão, alimentos, peças de reposição e salários, e consultava a guarda quando a distribuição de equipamento precisava mudar. A responsabilidade dela era sobre aquela operação cotidiana; o texto não a declara líder de todo o clã.',image:'k20-contas-e-abastecimento.webp',alt:'Aoi coordena registros de abastecimento, manutenção e entregas com trabalhadores e guarda.'},
+    {chapter:21,text:'Antes de uma nova rota de entrega, um pequeno grupo de veteranos verificou armaduras, mapas e pontos de retorno. Eram profissionais experientes, não uma unidade invencível nem uma força capaz de desafiar as potências mundiais. Sua vantagem estava em conhecer os caminhos, manter formação e saber quando proteger a carga em vez de perseguir um adversário.',image:'k21-esquadra-regional.webp',alt:'Uma pequena unidade veterana Kurogane se prepara para uma escolta regional.'},
+    {chapter:22,text:'Ao fim da proposta, o território é mais do que uma oficina cercada de casas: tem portões, pátios, guardas, comércio e lugares de trabalho que cresceram ao longo de gerações. Seu alcance permanece regional. O nome pode ser reconhecido entre compradores e praticantes da espada, mas não rivaliza em influência mundial com a família Dark; essa posição e toda a história militar aqui descrita aguardam aprovação do mestre André.'}
+  ];
+  const newImages = {
+    'k03-i02':['k03-treino-individual.webp','Um instrutor Kurogane demonstra postura e guarda com katana no pátio.'],
+    'k04-i02':['k04-duelo-supervisionado.webp','Hana e Ren treinam um duelo supervisionado com armas de madeira.'],
+    'k05-i02':['k05-formacao-patio.webp','Uma pequena unidade Kurogane executa exercícios coordenados no pátio.'],
+    'k06-i02':['k06-patrulha-muralha.webp','Sentinelas Kurogane fazem ronda disciplinada sobre as muralhas.'],
+    'k07-i02':['k07-escolta-comercial.webp','Guardas acompanham uma remessa de armas por uma rota comercial regional.'],
+    'k08-i02':['k08-revisao-arsenal.webp','Um responsável pelo arsenal e um guarda conferem armas e equipamentos.'],
+    'k09-i02':['k09-distrito-territorial.webp','Vista do território regional Kurogane com muralhas, residências, forjas e pátio de treino.'],
+    'k09-i03':['k01-portao-fortificado.webp','Portão regional fortificado com sentinelas Kurogane em uniforme coordenado.'],
+    'k10-i02':['k10-inspecao-patrulha.webp','Hana, um guarda e um responsável anotam a inspeção de uma lâmina devolvida.'],
+    'k11-i02':['k11-patrulha-portao.webp','Patrulhas coordenadas trocam registros de turno sob um portão fortificado.'],
+    'k12-i02':['k12-demonstracao-tecnica.webp','Uma espadachim demonstra técnica controlada no dojo enquanto aprendizes observam.'],
+    'k13-i02':['k13-recuperacao-pos-tempestade.webp','Guardas e artesãos reabrem o distrito e verificam os danos depois da tempestade.'],
+    'k14-i02':['k14-escolta-caixa-katana.webp','Uma escolta regional prende a caixa fechada da katana ao carro de entrega.'],
+    'k15-i02':['k15-manutencao-armas.webp','Um guarda e uma artesã fazem manutenção cuidadosa de armas no arsenal.'],
+    'k16-i02':['k16-teste-lamina.webp','Kaede e Daisuke avaliam uma lâmina num teste controlado entre forja e pátio.'],
+    'k17-i02':['k17-instrutor-aprendizes.webp','Um instrutor veterano corrige a postura de aprendizes no dojo.'],
+    'k20-i02':['k20-distribuicao-equipamentos.webp','Aoi e a intendência distribuem equipamentos e provisões a uma patrulha.'],
+    'k21-i02':['k21-esquadra-regional.webp','Uma pequena unidade veterana Kurogane se prepara para uma escolta regional.']
+  };
+  for (const addition of regionalAdditions) {
+    const chapterId=`k${String(addition.chapter).padStart(2,'0')}`;
+    const headingIndex=events.findIndex((event,index)=>index>0&&event.type==='heading'&&event.chapter===addition.chapter+1);
+    const insertAt=headingIndex<0?events.length:headingIndex;
+    const additions=[{type:'text',eventId:`${chapterId}-regional-context`,text:addition.text,chapter:addition.chapter}];
+    if(addition.image){const eventId=`${chapterId}-i02`;additions.push({type:'image',eventId,src:`assets/kurogane/narrative/${addition.image}`,alt:addition.alt,pixelWidth:1536,pixelHeight:1024,large:true,chapter:addition.chapter});}
+    events.splice(insertAt,0,...additions);
+  }
+  for(const event of events){
+    const replacement=newImages[event.eventId];
+    if(event.type==='image'&&replacement){event.src=`assets/kurogane/narrative/${replacement[0]}`;event.alt=replacement[1];}
+  }
+  const chapterNineEnd=events.findIndex(event=>event.type==='heading'&&event.chapter===10);
+  events.splice(chapterNineEnd<0?events.length:chapterNineEnd,0,{type:'image',eventId:'k09-i03',src:'assets/kurogane/narrative/k01-portao-fortificado.webp',alt:'Portão regional fortificado com sentinelas Kurogane em uniforme coordenado.',pixelWidth:1536,pixelHeight:1024,large:true,chapter:9});
   window.KUROGANE_BOOK_DATA={
     id:'kurogane',title:'Kurogane — O Legado do Aço',shortTitle:'KUROGANE',subtitle:'Uma história proposta sobre forja, espada e legado',tocLabel:'KUROGANE · O LEGADO DO AÇO',
-    pageTitle:'KUROGANE · NARRATIVA PROPOSTA — O LEGADO DO AÇO',cover:'assets/kurogane/cover/legado-do-aco.webp',coverAlt:'Artesão trabalha numa oficina tradicional iluminada pela forja',
+    pageTitle:'KUROGANE · NARRATIVA PROPOSTA — O LEGADO DO AÇO',cover:'assets/kurogane/cover/legado-do-aco-regional.webp',coverAlt:'Guarda e artesão diante de um portão oriental fortificado que abre para um território regional organizado',
     coverTitleHtml:'KUROGANE<br><em>O LEGADO DO AÇO</em>',coverEyebrow:'OBRA PROPOSTA · PARA REVISÃO DO MESTRE ANDRÉ',coverTagline:'FORJA · LÂMINA · LEGADO',coverByline:'Uma narrativa independente em 22 capítulos<br>Proposta de cânone · edição ilustrada',events,toc,atlas:[],proposal:true
   };
 })();

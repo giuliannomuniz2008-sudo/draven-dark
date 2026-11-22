@@ -19,6 +19,10 @@ Para validar localmente, execute `node scripts/test-integrity.cjs`.
 
 A tela inicial agora permite alternar por setas entre **Ryusen Kurogane Dark** e **Kurogane — O Legado do Aço**. A seleção também funciona com as setas esquerda/direita do teclado enquanto a capa estiver visível. Dentro da leitura, o botão **Biblioteca** retorna à escolha de volume sem recarregar a página.
 
-O volume Kurogane contém 22 capítulos e é uma **proposta narrativa para avaliação do mestre André**, não cânone aprovado. Seu sumário, paginação e progresso são independentes do livro principal. A versão atual tem capa e 22 ilustrações narrativas em WebP de alta qualidade; os PNG originais foram guardados na pasta irmã `Kurogane-Source-Originals`. A meta visual ampliada de 40–80 cenas ainda está pendente.
+O volume Kurogane contém 22 capítulos e é uma **proposta narrativa para avaliação do mestre André**, não cânone aprovado. Seu sumário, paginação e progresso são independentes do livro principal. A edição atual tem capa e 40 ilustrações narrativas em WebP; os PNG originais foram guardados na pasta irmã `Kurogane-Source-Originals`.
+
+## Reformulação proposta do clã Kurogane — 22/11/2026
+
+As 22 ilustrações narrativas antigas foram substituídas por versões com identidade oriental; 18 cenas novas foram distribuídas ao longo dos capítulos. A capa também foi atualizada para apresentar o território e a guarda regional. O volume agora tem 40 imagens narrativas. Os PNG originais foram guardados na pasta irmã `Kurogane-Source-Originals`. O texto desenvolve um território e uma defesa regionais, mantendo os Kurogane abaixo da influência mundial dos Dark. Todo esse material continua proposto, aguardando aprovação do mestre André. Consulte o [guia visual proposto](GUIA-VISUAL-KUROGANE-PROPOSTA.md), a [auditoria das imagens](AUDITORIA-ILUSTRACOES-KUROGANE-2026-11-22.md) e o [documento de aprovação](APROVACAO-MESTRE-ANDRE-KUROGANE.md).
 
 Arquivos úteis: [resumo de aprovação para André](APROVACAO-MESTRE-ANDRE-KUROGANE.md) e [mensagem curta para compartilhar](MENSAGEM-CURTA-MESTRE-ANDRE-KUROGANE.txt).

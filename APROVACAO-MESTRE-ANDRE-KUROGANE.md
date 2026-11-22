@@ -37,11 +37,18 @@ Kaede Kurogane (artesã da primeira oficina), Daisuke (praticante de espada e in
 5. Os oito personagens e os conflitos locais podem existir nesse universo, ou devem ser renomeados/retirados?
 6. A cena final da encomenda materna pode ser conectada desta forma sem revelar destino, posição ou escolhas reservadas da mãe?
 7. Há um símbolo Kurogane oficial a ser usado em futuras edições? Até confirmação, o livro evita apresentá-lo como brasão.
+8. A proposta de território regional fortificado — portões, patrulhas, arsenal, pátios e escoltas — é compatível com o alcance e a organização que você imagina para os Kurogane?
+9. A identidade visual oriental e os uniformes funcionais correspondem à cultura materna de Ryusen, sem fixar regras universais para todos os membros?
+10. A economia regional descrita sustenta a tradição artesanal e militar sem colocá-los no mesmo nível mundial da família Dark?
 
 ## Limites deliberados
 
 O texto não cria poderes hereditários, magia universal, armas divinas, técnicas capazes de superar automaticamente Sondark, liderança Dark, hierarquia política mundial Kurogane, destino para a mãe, datas absolutas, regras de entrada no território Dark nem eventos futuros da campanha. Esses pontos permanecem reservados ao mestre.
 
+## Reformulação proposta nesta edição
+
+A edição atual propõe os Kurogane como potência regional respeitável, com tradição complementar de forja e esgrima, um território organizado e meios próprios de defesa, patrulha, manutenção de arsenal e escolta comercial. Ela distingue essa capacidade local da influência mundial muito superior dos Dark. A arquitetura, os uniformes, os personagens militares, as cenas de treinamento e os acontecimentos do livro seguem sujeitos à aprovação; não foram criados brasão oficial, títulos permanentes ou números de efetivo.
+
 ## Estado técnico desta versão
 
-O segundo volume está integrado como seleção independente na biblioteca e tem 22 capítulos narrativos, progresso separado e nove imagens de cena integradas, além da capa. A meta visual de 40–80 imagens não foi atingida nesta versão; a expansão visual ainda está pendente. A obra está pronta para leitura editorial e revisão de cânone, não para ser apresentada como história oficial aprovada.
+O segundo volume continua integrado à biblioteca com 22 capítulos e progresso separado. Possui 40 ilustrações narrativas em WebP, incluindo 22 substituições visuais e 18 cenas adicionais, além da capa. Os 22 PNG originais substituídos foram preservados em `Kurogane-Source-Originals`; o histórico Git anterior também permanece. O guia [GUIA-VISUAL-KUROGANE-PROPOSTA.md](GUIA-VISUAL-KUROGANE-PROPOSTA.md) documenta a continuidade visual. O volume continua marcado como proposta e depende da revisão de cânone do mestre André.
