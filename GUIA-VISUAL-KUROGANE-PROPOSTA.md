@@ -13,7 +13,7 @@ Esta é uma referência de continuidade para arte gerada nesta edição; não fi
 
 - Ryusen segue a ficha visual oficial, com progressão de idade e tatuagens somente a partir dos 18 anos.
 - O pai permanece visualmente distinto de Ryusen, não é representado como ferreiro e não recebe símbolos ou aparência novos sem referência oficial.
-- A arte da mãe incluída no Atlas é uma proposta: mulher adulta de identidade própria, cabelo escuro, olhos castanhos, traje funcional refinado e duas espadas. Não copie o visual do filho nem a apresente como imagem oficial.
+- A arte provisória da mãe é uma proposta: mulher adulta de identidade própria, cabelo branco natural, traje funcional refinado e duas espadas. Cor dos olhos, rosto oficial, idade precisa e demais características não foram fixados. Não copie o visual do filho nem a apresente como imagem oficial.
 - Nenhum nome, parentesco, brasão ou uniforme universal novo se torna cânone por aparecer em imagem.
 
 ## Relações comerciais

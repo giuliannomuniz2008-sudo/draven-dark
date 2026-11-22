@@ -1,6 +1,6 @@
 # Inventário visual do livro
 
-Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilustração complementar no capítulo 5; 22 fases de Ryusen; 8 personagens. O leitor aplica os caminhos depois de carregar ryusen-revision.js.
+Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilustração complementar no capítulo 5; 22 fases de Ryusen; 8 personagens. A triagem adicional da Segunda Madrugada está registrada em [AUDITORIA-ANATOMICA-SEGUNDA-MADRUGADA.md](AUDITORIA-ANATOMICA-SEGUNDA-MADRUGADA.md); ela não equivale a inspeção ampliada completa. O leitor aplica os caminhos depois de carregar ryusen-revision.js.
 
 ## Imagens narrativas
 
@@ -26,7 +26,7 @@ Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilu
 | IV · A Derrota Pública | c4-practice-detail | assets/ryusen/amostras-prioritarias/c4-medalhao-dark.webp | O pai entrega o medalhão Dark a Ryusen aos dez anos, após a derrota numa prova comum. | 1024×1536 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-relay-letter-final | assets/draven/recreated-2026/narrative/c5-relay-letter-final.webp | Aos onze anos, Ryusen alcança o pacote lacrado recém-chegado pelo relé de comunicação do alojamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-letter-reading-final | assets/draven/recreated-2026/narrative/c5-letter-reading-final.webp | Aos onze anos, Ryusen lê sozinho a carta recém-chegada da mãe no alojamento | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
-| V · Cartas do Lado de Fora | c5-mother-two-swords-reference | assets/ryusen/atlas/ryusen-mother-two-swords-proposal.webp | Arte proposta da mãe de Ryusen treinando com duas espadas, evocada pela carta | 1024×1536 · presente | Nova proposta visual; aguarda validação do mestre |
+| V · Cartas do Lado de Fora | c5-mother-two-swords-reference | assets/ryusen/atlas/ryusen-mother-two-swords-whitehair-proposal.png | Proposta da mãe adulta, cabelo branco natural e duas espadas, evocada pela carta | 1024×1536 · presente | Proposta revisada; aguarda validação do mestre |
 | V · Cartas do Lado de Fora | c5-i3 | assets/draven/recreated-2026/narrative/c5-i3.webp | Ryusen lê uma carta da mãe no território masculino, junto a um pequeno retalho e referências desenhadas | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-detail | assets/draven/recreated-2026/narrative/c5-detail.webp | A carta da mãe, o retalho bordado e o relé de comunicação no alojamento masculino | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
 | V · Cartas do Lado de Fora | c5-focus-new | assets/draven/recreated-2026/narrative/c5-focus-new.webp | Ryusen aos onze anos relê a carta da mãe no alojamento, sem tatuagens; correspondência e detalhes do tecido ao alcance das mãos | 1122×1402 · presente | Triagem em mosaico; ampliação individual pendente |
@@ -136,7 +136,7 @@ Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilu
 ## Retratos dos demais personagens
 
 - **Pai de Ryusen** — Família Dark · nome não definido. 1 fase(s); retrato verificado na triagem visual em mosaico; ampliação individual pendente.
-- **Mãe de Ryusen** — Família Kurogane · mãe de Ryusen · nome não definido. 1 fase(s); retrato verificado na triagem visual em mosaico; ampliação individual pendente.
+- **Mãe de Ryusen** — Família Kurogane · mãe de Ryusen · nome não definido. 1 fase; proposta atual de cabelo branco natural e duas espadas; visual aguarda aprovação do mestre.
 - **Instrutor do pátio** — Personagem funcional sem nome. 1 fase(s); retrato verificado na triagem visual em mosaico; ampliação individual pendente.
 - **O jovem da disputa** — Adversário de treino sem nome. 1 fase(s); retrato verificado na triagem visual em mosaico; ampliação individual pendente.
 - **O vencedor da prova** — Colega de treinamento sem nome. 3 fase(s); retrato verificado na triagem visual em mosaico; ampliação individual pendente.
@@ -145,7 +145,7 @@ Atualizado em 22/11/2026. 98 posições narrativas originais preservadas + 1 ilu
 
 ## Pendências visuais registradas
 
-- DD-C17-01, DD-C17-02 e DD-C17-03: edição localizada restrita às tatuagens ainda depende de ferramenta de máscara precisa.
+- DD-C17-01, DD-C17-02 e DD-C17-03: edição localizada restrita às tatuagens ainda depende de mapear os códigos aos arquivos e de ferramenta de máscara precisa.
 - c16-i16, c17-limiar-final, c17-departure-final e atlas-phase-21 permanecem protegidas.
 - A revisão por metadados, vínculo narrativo e presença do arquivo cobre as 98 posições. A inspeção ampliada de cada imagem e das 22 fases não é presumida por este inventário; os estados individuais acima mostram o que ainda precisa de conferência.
 

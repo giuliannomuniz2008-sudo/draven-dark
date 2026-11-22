@@ -37,6 +37,9 @@ assert.ok(kurogane.events.filter(e => e.type === 'image').every(e => { const fil
 assert.equal(book.toc.length, 17, '17 capítulos');
 assert.equal(book.events.filter(e => e.type === 'image').length, 99, '98 espaços narrativos preservados e uma nova ilustração complementar');
 assert.ok(book.events.some(e => e.eventId === 'c5-mother-two-swords-reference'), 'referência visual materna integrada após a carta do capítulo 5');
+assert.equal(book.events.find(e => e.eventId === 'c5-mother-two-swords-reference').src, 'assets/ryusen/atlas/ryusen-mother-two-swords-whitehair-proposal.png', 'cena evocada pela carta usa a proposta materna de cabelo branco');
+assert.ok(fs.existsSync(path.join(root, 'assets/ryusen/atlas/ryusen-mother-visual-sheet-whitehair-proposal.png')), 'ficha visual materna em quatro vistas presente');
+assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'VERSION.json'), 'utf8')).motherAtlasImage, 'assets/ryusen/atlas/ryusen-mother-two-swords-whitehair-proposal.png', 'versão aponta à nova arte materna proposta');
 assert.equal(book.atlas[0].phases.length, 22, '22 fases de Ryusen');
 assert.equal(book.atlas.length, 8, '8 fichas de personagens');
 assert.ok(fs.existsSync(path.join(root, book.cover)), 'capa local presente');
@@ -67,6 +70,8 @@ assert.ok(book.events.findIndex(e => e.eventId === 'c2-i4') > book.events.findIn
 const text = id => book.events.find(e => e.eventId === id)?.text || '';
 assert.match(text('c2-p10'), /aos sete anos/i, 'cronologia do capítulo 2 marca a idade de sete anos');
 assert.match(text('c4-p12'), /filho único.*buscar superar e matar o próprio pai/i, 'a tradição Dark é aplicada ao único filho sem determinar o resultado');
+assert.match(text('c1-p10'), /fora das prioridades do pai/i, 'pai permanece distante da criação de Ryusen');
+assert.match(text('c11-p10'), /preconceito.*naquela leitura, ela estava certa/i, 'preconceito de Ryusen é demonstrado e contestado por evidência');
 assert.match(text('c3-p2'), /armas de fogo.*lâminas.*nenhum daqueles exercícios dependia de magia/i, 'formação inclui vias de combate não mágicas');
 assert.match(text('c6-p12'), /pedir ajuda era fraqueza/i, 'tradição Dark é apresentada sem torná-la regra universal');
 assert.match(text('c7-p1'), /silhueta medieval.*integração de rede e controle/i, 'tecnologia avançada integrada à estética medieval');
@@ -143,4 +148,5 @@ const editBlock = revisionSource.match(/const edits = \{([\s\S]*?)\n  \};/);
 assert.ok(editBlock, 'bloco de revisões encontrado');
 const editIds = [...editBlock[1].matchAll(/^\s*'([^']+)'\s*:/gm)].map(match => match[1]);
 assert.equal(new Set(editIds).size, editIds.length, 'revisões de parágrafo sem chaves duplicadas');
+assert.equal(editIds.filter(id => id === 'c11-p10').length, 1, 'parágrafo de preconceito não é sobrescrito por chave duplicada');
 console.log('OK: 17 capítulos, 98 posições originais + 1 ilustração complementar, 22 fases de Ryusen, 8 personagens, 22 capítulos e 42 imagens Kurogane; IDs, metadados, recursos locais, c16-i16 e estrutura offline verificados.');

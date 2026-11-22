@@ -7,6 +7,7 @@
 - Os Dark valorizam força individual, orgulho, independência, rivalidade e superação. A tradição familiar orienta os filhos a buscar superar e matar o próprio pai. Ryusen não realizou isso; o resultado é futuro da campanha.
 - O pai e a mãe de Ryusen mantêm relação positiva. Após o nascimento, ela retorna ao território Kurogane e mantém contato por cartas; Ryusen cresce entre os Dark.
 - A mãe é uma espadachim habilidosa de duas espadas. A katana de Ryusen foi encomendada por ela aos ferreiros Kurogane.
+- A mãe possui cabelo branco natural; sua identidade facial e demais detalhes visuais ainda dependem da referência oficial do mestre.
 - Ryusen escolhe suas tatuagens, inspiradas nas cartas maternas; elas não são hereditárias nem mágicas.
 - Ryusen é extremamente orgulhoso e não se submete a ninguém. Seu orgulho não garante vitória; aos 19 anos ainda é iniciante.
 - Os Kurogane são extraordinariamente ricos e tecnologicamente avançados, com produção e contratos de armas e equipamentos. Negociam com Dark e Oamem.
@@ -15,7 +16,7 @@
 
 ## Material proposto nesta edição
 
-- A identidade visual gerada para a mãe (cabelo escuro, olhos castanhos e duas espadas) é apenas uma proposta; não substitui a referência oficial do mestre.
+- A proposta visual atual da mãe usa cabelo branco natural e duas espadas. A imagem não fixa rosto oficial, idade exata ou detalhes biográficos além das características já informadas.
 - Kaede, Daisuke, Hana, Ren, Sena, Sadao, Iori e Aoi, assim como oficinas, contratos, rivalidades, tempestade, negociações e acontecimentos do Livro II, são propostas ficcionais.
 - A capa e as cenas de negociação com Dark e Oamem são artes propostas. A imagem da Oamem mostra uma transação tensa sem insinuar aliança.
 - O livro retrata a prosperidade por infraestrutura, produção, instrumentos de precisão, comércio amplo e capacidade de manter contratos, sem elevar os Kurogane ao nível militar Dark.
