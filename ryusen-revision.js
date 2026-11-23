@@ -188,6 +188,8 @@
   moveAfter('c16-session-finished-final', 'c16-p18');
   moveAfter('c17-departure-final', 'c17-p8');
   moveAfter('c17-limiar-final', 'c17-p10');
+  // This departure image belongs after the invitation was declined and Ryusen returns to the group.
+  moveAfter('c12-i3', 'c12-p8');
   const protectedImage = book.events.find(event => event.eventId === 'c16-i16');
   if (protectedImage?.src !== 'assets/draven/recreated-2026/narrative/c16-i16.webp') throw new Error('Protected illustration moved or replaced');
   book.revisionDraft = { name: 'Ryusen Kurogane Dark', changedParagraphs: Object.keys(edits), prioritySamples: Object.keys(samples), protectedImageId: 'c16-i16', imageReviewPending: true, proposedNewImages: [motherImageId] };
