@@ -79,3 +79,5 @@ Foram lidos os episódios relevantes dos capítulos II–XVII: limites impostos 
 **Resultado desta execução:** uma ilustração substituída no vínculo ativo por divergência texto–imagem; quatro códigos Kurogane e quatro códigos do capítulo XV examinados; um detalhe de mão em `KUR-12-01` permanece inconclusivo por oclusão; nenhum outro defeito anatômico foi confirmado nas cenas solicitadas. `c16-i16`, `c17-departure-final`, `c17-limiar-final` e o arquivo não rastreado `c9-individual-contest.png` não foram modificados.
 
 A verificação da versão pública revelou uma segunda divergência: c12-i3 retratava Ryusen afastando-se após a recusa, mas estava antes do convite. Mantive o mesmo ID e a mesma arte, reposicionando-a após c12-p8, quando ele já encerrou a conversa e retornou ao grupo. As três imagens posteriores à aproximação foram comparadas; nenhuma foi refeita.
+
+Na checagem das páginas seguintes, a imagem c12-i3 foi refinada para ficar logo após c12-p7 (despedida) e antes de c12-p8 (retorno ao grupo). Isso mantém a caminhada junto à saída da conversa e antes do reencontro com os rapazes.
