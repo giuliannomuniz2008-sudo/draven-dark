@@ -50,3 +50,30 @@ IDs cobertos no mosaico: `k01-i01`, `k01-i02`, `k02-i01`, `k03-i01`, `k03-i02`, 
 - Não foi localizada com segurança a imagem relatada como mulher com três braços. Nenhuma das 42 imagens Kurogane revistas mostrou esse defeito evidente. A localização entre as 98 imagens Ryusen e no Atlas segue pendente.
 - Nenhuma arte foi substituída nesta revisão. As 98 imagens Ryusen, 22 fases do Atlas, retratos secundários e inspeção anatômica fina permanecem pendentes. As tatuagens `DD-C17-01/02/03` também não foram editadas: a ferramenta disponível não garante uma máscara de pixels com preservação do restante da arte.
 - Para o Livro I, foram montadas e examinadas folhas de contato dos 99 arquivos de imagem efetivamente ligados aos 17 capítulos; para o Atlas, foram examinadas folhas dos 22 arquivos de fase. A triagem não mostrou anomalia grosseira de membro duplicado ou uma costa marítima inequívoca. Ela não substitui a inspeção ampliada arquivo a arquivo, sobretudo de mãos, tatuagens e acessórios; essas verificações seguem pendentes.
+
+## Investigação dirigida — 23/11/2026
+
+### Cenas Kurogane solicitadas
+
+| Código | Arquivo examinado | Resultado ampliado |
+|---|---|---|
+| `KUR-11-02` | `assets/kurogane/narrative/k11-patrulha-portao.webp` | Dois guardas seguram lados opostos do registro de rota; as mãos visíveis chegam ao quadro por braços compatíveis. Os demais patrulheiros não participam da troca. Nenhum membro duplicado confirmado. |
+| `KUR-12-01` | `assets/kurogane/narrative/k12-rivais-inspecao-oriental.webp` | A artesã aponta para a lâmina; o artesão observa com a mão no queixo e a outra apoiada na bancada. A mão baixa da artesã está parcialmente encoberta pela lâmina/apoio, então sua ligação completa ao ombro é **inconclusiva**; a imagem não prova um braço extra e não foi alterada. Lupa, suporte e lâmina estão apoiados de forma plausível. |
+| `KUR-12-02` | `assets/kurogane/narrative/k12-demonstracao-tecnica.webp` | A espadachim segura a arma com as duas mãos e mantém base baixa diante do alvo; a cadeia ombro–braço–mão é coerente. Os observadores não se confundem com seus membros. Sem defeito confirmado. |
+| `KUR-13-01` | `assets/kurogane/narrative/k13-noite-agua-oriental.webp` | Equipe atua nos canais durante tempestade localizada; pá, comporta e ferramenta de drenagem correspondem às posturas visíveis. Nas figuras pequenas ao fundo, os dedos não permitem avaliação fina; nenhum membro duplicado evidente. |
+
+### Ryusen — capítulo XV e códigos das capturas
+
+Mapeamento pelos eventos em ordem de leitura: `DD-C15-01` = `c15-focus.webp`; `DD-C15-02` = `c15-detail.webp`; `DD-C15-03` = `c15-i3.webp`; `DD-C15-04` = `c15-open-questions-final.webp`. As quatro imagens foram ampliadas e comparadas com o texto e entre si. Ryusen mantém aparência de 17 anos, cabelo branco preso com trança, traje escuro sem tatuagens e proporções compatíveis. Nos quadros com mãos, a leitura do aviso, o apoio no relé e a escrita têm posições anatomicamente plausíveis; não confirmei “dois braços direitos” nem outro membro extra. A quinta imagem, `c15-return-to-practice-final.webp`, corresponde ao retorno ao exercício básico descrito no parágrafo final. Não foi necessário alterar essa sequência.
+
+### Cena técnica e conversa social — capítulos XI–XII
+
+A cena lembrada como “mulher ensinando Ryusen”, aproximadamente nas páginas 67–68, corresponde ao encontro técnico entre `c11-p2`–`c11-p11`. A técnica sem nome explica leituras de um sistema de água; Ryusen a subestima por preconceito, contesta a leitura, verifica os instrumentos e reconhece que ela estava certa naquela questão. Isso é informação técnica fora do território masculino, não uma mestra de combate nem uma relação de autoridade aceita por Ryusen. As três artes do capítulo XI mostram demonstração de painel, correção do medidor e anotações; as mãos visíveis não confirmam anatomia duplicada.
+
+Foi confirmada, porém, uma quebra de correspondência em `c12-estacao-conversa-final`: a arte anterior mostrava novamente a explicação de um medidor, embora o trecho `c12-p2` já descrevesse a técnica encerrando o turno e Ryusen iniciando uma aproximação social. A posição foi atualizada para `assets/draven/recreated-2026/narrative/c12-estacao-conversa-social-v1.webp`, uma nova cena em que ela guarda o registro e Ryusen inicia conversa a distância respeitosa. A arte anterior foi preservada no acervo, sem sobrescrita. O texto do capítulo XII mantém o convite, a recusa clara e a retirada sem insistência; não foi reescrito.
+
+### Revisão direcionada da personalidade
+
+Foram lidos os episódios relevantes dos capítulos II–XVII: limites impostos em treino e disputas; resposta a derrotas e dados; recusa em ajudar um desconhecido e aceitação pragmática de ajuda numa carga; escolhas de rivais; visita técnica fora do território; convite e aceitação de recusa; segurança em travessia; treino individual; investigação da Oamem sem promessa de campanha; decisão própria sobre tatuagens e máscara; e avaliação final. As atitudes permanecem consistentes com orgulho, ambição, preconceito pessoal e individualismo, sem exigir hostilidade em toda fala. Ouvir prova técnica, aceitar orientação profissional escolhida por ele ou parar uma tentativa insegura não equivale a submissão. Não encontrei contradição de personalidade que exigisse alteração textual.
+
+**Resultado desta execução:** uma ilustração substituída no vínculo ativo por divergência texto–imagem; quatro códigos Kurogane e quatro códigos do capítulo XV examinados; um detalhe de mão em `KUR-12-01` permanece inconclusivo por oclusão; nenhum outro defeito anatômico foi confirmado nas cenas solicitadas. `c16-i16`, `c17-departure-final`, `c17-limiar-final` e o arquivo não rastreado `c9-individual-contest.png` não foram modificados.

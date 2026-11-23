@@ -172,6 +172,12 @@
   if (!distinctPracticeImage || distinctPracticeImage.type !== 'image') throw new Error('Missing practice illustration slot');
   distinctPracticeImage.src = 'assets/draven/recreated-2026/narrative/c10-i3-distinct-v2.webp';
   distinctPracticeImage.alt = 'Ryusen, aos quinze anos, reacende uma centelha instável junto ao medidor enquanto o instrutor observa.';
+  const c12SocialScene = book.events.find(event => event.eventId === 'c12-estacao-conversa-final');
+  if (!c12SocialScene || c12SocialScene.type !== 'image') throw new Error('Missing chapter XII social scene');
+  c12SocialScene.src = 'assets/draven/recreated-2026/narrative/c12-estacao-conversa-social-v1.webp';
+  c12SocialScene.alt = 'Aos dezesseis anos, Ryusen inicia uma conversa breve e respeitosa com a técnica ao fim do turno, depois que ela guarda as ferramentas.';
+  c12SocialScene.pixelWidth = 1024;
+  c12SocialScene.pixelHeight = 1536;
   // The picture shows the two competitors reading the gauge, not writing.
   book.events.find(event => event.eventId === 'c8-written-result-final').alt =
     'Aos quatorze anos, Ryusen e o colega observam no medidor os resultados de estabilidade e tempo do exercício de luz.';
